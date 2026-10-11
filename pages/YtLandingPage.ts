@@ -12,7 +12,7 @@ class YtLandingPage {
 
     private settingEllipsesButton: Locator;
 
-    private languageDropdownUnderSettings: Locator;
+    public languageDropdownUnderSettings: Locator;
 
     private languageList: Locator;
 
@@ -206,11 +206,19 @@ class YtLandingPage {
 	}
 
 
+	/** Waits until the page has finished loading and the top bar is usable. */
+	public async waitForPageToLoad() :Promise<void>{
+		await this.page.waitForLoadState("load");
+		await this.searchInputLandinfPage.waitFor();
+		await this.settingEllipsesButton.waitFor();
+	}
+
 	public async openingLandingPage():Promise<void> {
 
 		// String url=ConfigManager.get("Url");
 		// driver.get(url);
        await this.page.goto('https://www.youtube.com/');
+		await this.waitForPageToLoad();
 		console.log("Opened YouTube landing page.");
 	}
 
@@ -224,6 +232,21 @@ class YtLandingPage {
 	public async clickingLanguageDropdownButton() :Promise<void> {
 		console.log("Clicking language dropdown...");
         await this.languageDropdownUnderSettings.click();
+	}
+
+	/** Waits until the number of languages in the open dropdown stops changing, so the list is fully loaded. */
+	public async waitForLanguageListToStabilize() :Promise<void>{
+		// the locator also matches hidden entries from other menus, so only count the visible ones
+		const visibleLanguages:Locator = this.languageList.filter({ visible: true });
+		let previousCount:number=-1;
+		for(let attempt=0;attempt<20;attempt++) {
+			const count:number = await visibleLanguages.count();
+			if (count > 0 && count === previousCount) {
+				break;
+			}
+			previousCount = count;
+			await this.page.waitForTimeout(500);
+		}
 	}
 
 	public async gettingLanguageList():Promise<Locator[]> {
@@ -267,6 +290,14 @@ class YtLandingPage {
 		return sideMenuList;
 	}
 
+
+	/** Opens the hamburger menu only if the side menu is not already expanded. */
+	public async expandSideMenuIfCollapsed() :Promise<void>{
+		if (!(await this.sideMenuExpandedList.first().isVisible())) {
+			console.log("Side menu is collapsed, expanding it...");
+			await this.ellipsesYtLandingPageTopLeft.click();
+		}
+	}
 
 	public async clickingLeftEllipses() :Promise<void>{
 		console.log("Clicking left ellipses in the landing page");
