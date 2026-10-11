@@ -1,0 +1,19 @@
+{
+  "runForAllLanguages": false,
+  "overideLanguageCountDefault": 2,
+  "overideLanguageCount": 2,
+
+  "runForAllLanguagesCI": true,
+  "overideLanguageCountDefaultCI": 2,
+  "overideLanguageCountCI": 2,
+
+  "runForAllCountries": false,
+  "overideCountriesCountDefault": 2,
+  "overideCountriesCount": 2,
+
+  "runForAllCountriesCI": true,
+  "overideCountriesCountDefaultCI": 2,
+  "overideCountriesCountCI": 2,
+
+  "Url": "https://www.youtube.com/"
+}
