@@ -24,9 +24,10 @@ class YtLandingPage {
 
     private settingEllipsesOptionsListLandingPage: Locator;
 
+    
     private languageListUpdated: Locator;
 
-    private searchInputLandinfPage: Locator;
+    public searchInputLandinfPage: Locator;
 
     //Cannot use this directly as this banner wouldnt show if yt does not have a search histroy so to show these recommendation banner
     private horizontalScrollBarLandingPage: Locator;
@@ -41,15 +42,22 @@ class YtLandingPage {
 
     private closeButtonGlobalFilterPopup: Locator;
 
+    public spinnerUnderSetting:Locator;
+
+    private centerTitle: Locator;
+
     constructor(page: Page, testInfo: TestInfo) {
         this.page = page;
         this.testInfo = testInfo;
 
         this.sideMenu = page.locator("//div[@class='style-scope ytd-mini-guide-renderer']");
         this.sideMenuExpandedList = page.locator("//ytd-guide-entry-renderer[@class='style-scope ytd-guide-section-renderer']");
-        this.settingEllipsesButton = page.locator("//ytd-topbar-menu-button-renderer[@class='style-scope ytd-masthead style-default']");
+     //   this.settingEllipsesButton = page.locator("//ytd-topbar-menu-button-renderer[@class='style-scope ytd-masthead style-default']");
+     
+        this.settingEllipsesButton = page.locator('ytd-topbar-menu-button-renderer a')
+
         this.languageDropdownUnderSettings = page.locator("(//div[@id='content-icon'])[2]");
-        this.languageList = page.locator("//yt-multi-page-menu-section-renderer[@class='style-scope ytd-multi-page-menu-renderer']//ytd-compact-link-renderer");
+        this.languageList = page.locator("//yt-multi-page-menu-section-renderer[@class='style-scope ytd-multi-page-menu-renderer']//ytd-compact-link-renderer").filter({ visible: true });
         this.ellipsesYtLandingPageTopLeft = page.locator("//ytd-topbar-logo-renderer[@id='logo']/preceding-sibling::*[@id='guide-button']");
         this.sideMenuCollapsedList = page.locator("//ytd-mini-guide-renderer[@class='style-scope ytd-app']//ytd-mini-guide-entry-renderer");
         this.countryCodeOnYtLogoLandingPage = page.locator("(//span[@id='country-code'])[1]");
@@ -58,10 +66,13 @@ class YtLandingPage {
         this.searchInputLandinfPage = page.locator("//input[@class='ytSearchboxComponentInput yt-searchbox-input title']");
         this.horizontalScrollBarLandingPage = page.locator("//div[@id='scroll-container']");
         this.locationDropdownUnderSettings = page.locator("(//div[@id='content-icon'])[4]");
-        this.locationList = page.locator("//yt-multi-page-menu-section-renderer[@class='style-scope ytd-multi-page-menu-renderer']//ytd-compact-link-renderer");
+        this.locationList = page.locator("//yt-multi-page-menu-section-renderer[@class='style-scope ytd-multi-page-menu-renderer']//ytd-compact-link-renderer").filter({ visible: true });
         this.globalFilterButton = page.locator("//div[@id='filter-button']");
         this.globalFilterData = page.locator("//ytd-search-filter-options-dialog-renderer[@class='style-scope ytd-popup-container']");
         this.closeButtonGlobalFilterPopup = page.locator("//yt-icon[@icon='close']");
+        this.spinnerUnderSetting=page.locator("(//div[@id='spinner']//div[@id='spinnerContainer'])[1]");
+        this.centerTitle = page.locator("//h2[@id='title-container']");
+
     }
 
     async open(): Promise<void> {
@@ -232,21 +243,6 @@ class YtLandingPage {
 	public async clickingLanguageDropdownButton() :Promise<void> {
 		console.log("Clicking language dropdown...");
         await this.languageDropdownUnderSettings.click();
-	}
-
-	/** Waits until the number of languages in the open dropdown stops changing, so the list is fully loaded. */
-	public async waitForLanguageListToStabilize() :Promise<void>{
-		// the locator also matches hidden entries from other menus, so only count the visible ones
-		const visibleLanguages:Locator = this.languageList.filter({ visible: true });
-		let previousCount:number=-1;
-		for(let attempt=0;attempt<20;attempt++) {
-			const count:number = await visibleLanguages.count();
-			if (count > 0 && count === previousCount) {
-				break;
-			}
-			previousCount = count;
-			await this.page.waitForTimeout(500);
-		}
 	}
 
 	public async gettingLanguageList():Promise<Locator[]> {

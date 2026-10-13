@@ -1,4 +1,10 @@
-import { eld } from 'eld/large';
+// eld's package.json only allows 'import', which Playwright's loader cannot resolve for 'eld/large',
+// so the large database is imported by path. The package has no types for this path, so reuse the ones from 'eld'.
+import type { eld as EldType } from 'eld';
+// @ts-ignore
+import { eld as eldLarge } from '../node_modules/eld/src/entries/static.large.js';
+
+const eld: typeof EldType = eldLarge;
 
 const languageNames = new Intl.DisplayNames(['en'], { type: 'language' });
 
