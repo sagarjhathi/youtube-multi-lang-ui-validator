@@ -1,0 +1,214 @@
+[
+  {
+    "Applied Language": "Afrikaans",
+    "Expected Data": "Tuis Kortvideo's Intekeninge Myne Geskiedenis Musiek Flieks en TV Ophef YouTube Premium YouTube Kids Aangeegeskiedenis"
+  },
+  {
+    "Applied Language": "Azərbaycan",
+    "Expected Data": "Ev Shorts Abunəliklər Siz Tarixçə Musiqi Film və TV Hayp YouTube Premium YouTube Kids Xəbər tarixçəsi"
+  },
+  {
+    "Applied Language": "Bahasa Indonesia",
+    "Expected Data": "Beranda Shorts Subscription Anda Histori Musik Film & TV Beri hype YouTube Premium YouTube Kids Histori laporan"
+  },
+  {
+    "Applied Language": "Bosanski",
+    "Expected Data": "Početna stranica Shorts Pretplate Vi Hi‪storija Muzika Filmovi i TV Poticanje interesovanja YouTube Premium YouTube Kids Historija prijava"
+  },
+  {
+    "Applied Language": "Català",
+    "Expected Data": "Inici Shorts Subscripcions Tu Historial Música Pel·lícules i televisió Hype YouTube Premium YouTube Kids Historial d'informes"
+  },
+  {
+    "Applied Language": "Dansk",
+    "Expected Data": "Start Shorts Abonnementer Dig Historik Musik Film og tv Hype YouTube Premium YouTube Kids Rapporteringshistorik"
+  },
+  {
+    "Applied Language": "Deutsch",
+    "Expected Data": "Startseite Shorts Abos Mein YouTube Verlauf Musik Filme & Shows Hype YouTube Premium YouTube Kids Meldeverlauf"
+  },
+  {
+    "Applied Language": "Eesti",
+    "Expected Data": "Avaleht Shorts Tellimused Teie Ajalugu Muusika Filmid ja telesarjad Haipimine YouTube Premium YouTube Kids Teavituste ajalugu"
+  },
+  {
+    "Applied Language": "English (India)",
+    "Expected Data": "Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube Kids Report history"
+  },
+  {
+    "Applied Language": "English (UK)",
+    "Expected Data": "Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube Kids Report history"
+  },
+  {
+    "Applied Language": "English (US)",
+    "Expected Data": "Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube Kids Report history"
+  },
+  {
+    "Applied Language": "Español (España)",
+    "Expected Data": "Inicio Shorts Suscripciones Tú Historial Música Películas y series Hype YouTube Premium YouTube Kids Historial de denuncias"
+  },
+  {
+    "Applied Language": "Español (Latinoamérica)",
+    "Expected Data": "Principal Shorts Suscripciones Tú Historial Música Películas y TV Hype YouTube Premium YouTube Kids Historial de denuncias"
+  },
+  {
+    "Applied Language": "Español (US)",
+    "Expected Data": "Principal Shorts Suscripciones Tú Historial Música Películas y TV Hype YouTube Premium YouTube Kids Historial de denuncias"
+  },
+  {
+    "Applied Language": "Euskara",
+    "Expected Data": "Orri nagusia Shorts Harpidetzak Zu Historia Musika Filmak eta saioak Ikusmin-adierazpenak YouTube Premium YouTube Kids Salaketa-historia"
+  },
+  {
+    "Applied Language": "Français",
+    "Expected Data": "Accueil Shorts Abonnements Vous Historique Musique Films et séries TV Boost YouTube Premium YouTube Kids Signalements"
+  },
+  {
+    "Applied Language": "Français (Canada)",
+    "Expected Data": "Accueil Shorts Abonnements Vous Historique Musique Films et émissions de télévision Applaudissement YouTube Premium YouTube Kids Historique des rapports"
+  },
+  {
+    "Applied Language": "Hrvatski",
+    "Expected Data": "Početna Shorts Pretplate Moje Povijest Glazba Filmovi i televizija Razglašavanje YouTube Premium YouTube Kids Povijest prijava"
+  },
+  {
+    "Applied Language": "Íslenska",
+    "Expected Data": "Heim Shorts Áskriftir Þú Ferill Tónlist Kvikmyndir og sjónvarpsefni Upphefja YouTube Premium YouTube Kids Tilkynningaferill"
+  },
+  {
+    "Applied Language": "Italiano",
+    "Expected Data": "Home Shorts Iscrizioni Tu Cronologia Musica Film e TV Hype YouTube Premium YouTube Kids Segnalazioni"
+  },
+  {
+    "Applied Language": "Latviešu valoda",
+    "Expected Data": "Sākums Shorts Abonementi Jūs Vēsture Mūzika Filmas un TV pārraides Popularizēšana YouTube Premium YouTube Kids Ziņošanas vēsture"
+  },
+  {
+    "Applied Language": "Lietuvių",
+    "Expected Data": "Pagrindinis Shorts Prenumeratos Jūs Istorija Muzika Filmai ir TV Pagyrimai YouTube Premium YouTube Kids Pranešimų istorija"
+  },
+  {
+    "Applied Language": "Magyar",
+    "Expected Data": "Kezdőlap Shorts Feliratkozások Te Előzmények Zene Film és tévé Hájpolás YouTube Premium YouTube Kids Bejelentési előzmények"
+  },
+  {
+    "Applied Language": "Nederlands",
+    "Expected Data": "Home Shorts Abonnementen Jij Geschiedenis Muziek Films en tv Hype YouTube Premium YouTube Kids Rapportagegeschiedenis"
+  },
+  {
+    "Applied Language": "Polski",
+    "Expected Data": "Główna Shorts Subskrypcje Ty Historia Muzyka Filmy i TV Podbijanie YouTube Premium YouTube Kids Historia zgłoszeń"
+  },
+  {
+    "Applied Language": "Português",
+    "Expected Data": "Início Shorts Subscrições Eu Histórico Música Filmes e TV Hype YouTube Premium YouTube Kids Histórico de denúncias"
+  },
+  {
+    "Applied Language": "Português (Brasil)",
+    "Expected Data": "Início Shorts Inscrições Você Histórico Música Filmes e TV Hype YouTube Premium YouTube Kids Histórico de denúncias"
+  },
+  {
+    "Applied Language": "Shqip",
+    "Expected Data": "Faqja e parë Shorts Abonimet Ti Historiku Muzikë Filmat dhe televizioni Popullarizo YouTube Premium YouTube Kids Historiku i raportimeve"
+  },
+  {
+    "Applied Language": "Slovenščina",
+    "Expected Data": "Domača stran Kratki videoposnetki Naročnine Vi Zgodovina Glasba Filmi in TV Izražanje navdušenja YouTube Premium YouTube Kids Zgodovina poročil"
+  },
+  {
+    "Applied Language": "Suomi",
+    "Expected Data": "Koti Shorts Tilaukset Sinä Historia Musiikki Elokuvat ja TV Hypetys YouTube Premium YouTube Kids Ilmoitushistoria"
+  },
+  {
+    "Applied Language": "Svenska",
+    "Expected Data": "Hem Shorts Prenumerationer Ditt YouTube Historik Musik Filmer och tv Hajp YouTube Premium YouTube Kids Rapporthistorik"
+  },
+  {
+    "Applied Language": "Tiếng Việt",
+    "Expected Data": "Trang chủ Shorts Kênh đăng ký Bạn Video đã xem Âm nhạc Phim và truyền hình Khuấy động YouTube Premium YouTube Kids Nhật ký báo cáo"
+  },
+  {
+    "Applied Language": "Türkçe",
+    "Expected Data": "Ana Sayfa Shorts Abonelikler Siz Geçmiş Müzik Filmler ve TV Hype YouTube Premium YouTube Kids İçerik bildirme geçmişi"
+  },
+  {
+    "Applied Language": "Беларуская",
+    "Expected Data": "Галоўная старонка Shorts Падпіскі Вы Гісторыя Музыка Фільмы і тэлеперадачы Галасаванне YouTube Premium YouTube Kids Гісторыя скаргаў"
+  },
+  {
+    "Applied Language": "Български",
+    "Expected Data": "Начало Shorts Абонаменти Вие История Музика Филми и телевизионни предавания Хайп YouTube Premium YouTube Kids Подадени сигнали"
+  },
+  {
+    "Applied Language": "Русский",
+    "Expected Data": "Главная Shorts Подписки Вы История Музыка Фильмы и сериалы Хайп YouTube Premium YouTube Детям Жалобы"
+  },
+  {
+    "Applied Language": "Українська",
+    "Expected Data": "Головна YouTube Shorts Підписки Ви Історія Музика Фільми й серіали Голосування YouTube Premium YouTube Kids Історія скарг"
+  },
+  {
+    "Applied Language": "Ελληνικά",
+    "Expected Data": "Αρχική Shorts Εγγραφές Εσείς Ιστορικό Μουσική Ταινίες και τηλεοπτικές εκπομπές Hype YouTube Premium YouTube Kids Ιστορικό αναφορών"
+  },
+  {
+    "Applied Language": "Հայերեն",
+    "Expected Data": "Սկիզբ Shorts Հետևում եմ Դուք Պատմություն Երաժշտություն Ֆիլմեր և սերիալներ Հայփել YouTube Premium YouTube Kids Բողոքների պատմություն"
+  },
+  {
+    "Applied Language": "עברית",
+    "Expected Data": "דף הבית Shorts מינויים הדף שלי היסטוריה מוזיקה סרטים ותוכניות טלוויזיה הייפ YouTube Premium YouTube Kids היסטוריית הדיווחים"
+  },
+  {
+    "Applied Language": "العربية",
+    "Expected Data": "الصفحة الرئيسية Shorts الاشتراكات أنت السجلّ موسيقى أفلام وبرامج تلفزيونية التشجيع YouTube Premium YouTube Kids سجلّ الإبلاغ عن المحتوى"
+  },
+  {
+    "Applied Language": "فارسی",
+    "Expected Data": "صفحه اصلی کوته‌ویدیوها اشتراک‌ها شما سابقه موسیقی فیلم و تلویزیون هیجان‌افزایی YouTube Premium YouTube Kids سابقه گزارش"
+  },
+  {
+    "Applied Language": "हिन्दी",
+    "Expected Data": "होम पेज Shorts सदस्यता आप देखे गए वीडियो संगीत फ़िल्में और टीवी शो हाइप YouTube Premium YouTube Kids शिकायतों का डेटा"
+  },
+  {
+    "Applied Language": "বাংলা",
+    "Expected Data": "হোম Shorts সাবস্ক্রিপশন আপনি ইতিহাস মিউজিক সিনেমা ও টিভি হাইপ YouTube Premium YouTube Kids অভিযোগ জানানোর ইতিহাস"
+  },
+  {
+    "Applied Language": "ਪੰਜਾਬੀ",
+    "Expected Data": "ਹੋਮ Shorts ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ ਤੁਸੀਂ ਇਤਿਹਾਸ ਸੰਗੀਤ ਫ਼ਿਲਮਾਂ ਅਤੇ ਟੀਵੀ ਹਾਈਪ ਕਰੋ YouTube Premium YouTube Kids ਰਿਪੋਰਟ ਸੰਬੰਧੀ ਇਤਿਹਾਸ"
+  },
+  {
+    "Applied Language": "ગુજરાતી",
+    "Expected Data": "હોમ Shorts સબ્સ્ક્રિપ્શન તમે ઇતિહાસ સંગીત મૂવી અને ટીવી હાઇપ YouTube Premium YouTube Kids રિપોર્ટનો ઇતિહાસ"
+  },
+  {
+    "Applied Language": "தமிழ்",
+    "Expected Data": "முகப்பு Shorts சந்தாக்கள் நீங்கள் இதுவரை பார்த்தவை இசை திரைப்படங்கள் & டிவி நிகழ்ச்சிகள் ஹைப் YouTube Premium YouTube Kids புகார் வரலாறு"
+  },
+  {
+    "Applied Language": "తెలుగు",
+    "Expected Data": "మొదటి ట్యాబ్ Shorts సబ్‌స్క్రిప్షన్‌లు ఖాతా హిస్టరీ మ్యూజిక్ సినిమాలు & టీవీ హైప్ YouTube Premium YouTube Kids రిపోర్టుల హిస్టరీ"
+  },
+  {
+    "Applied Language": "中文 (简体)",
+    "Expected Data": "首页 Shorts 订阅 我 历史记录 音乐 影视 粉丝热推 YouTube Premium YouTube Kids 举报记录"
+  },
+  {
+    "Applied Language": "中文 (繁體)",
+    "Expected Data": "首頁 Shorts 訂閱內容 個人中心 觀看記錄 音樂 電影與電視節目 粉絲熱推 YouTube Premium YouTube Kids 檢舉記錄"
+  },
+  {
+    "Applied Language": "中文 (香港)",
+    "Expected Data": "主頁 Shorts 訂閱項目 個人中心 記錄 音樂 電影和電視節目 粉絲推介 YouTube Premium YouTube Kids 舉報記錄"
+  },
+  {
+    "Applied Language": "日本語",
+    "Expected Data": "ホーム ショート 登録チャンネル マイページ 履歴 音楽 映画とテレビ番組 ハイプ YouTube Premium YouTube Kids 報告履歴"
+  },
+  {
+    "Applied Language": "한국어",
+    "Expected Data": "홈 Shorts 구독 내 페이지 기록 음악 영화 및 TV 하이프 YouTube Premium YouTube Kids 신고 기록"
+  }
+]
