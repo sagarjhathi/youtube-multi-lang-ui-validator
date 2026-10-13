@@ -20,9 +20,10 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 3,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
+   timeout: 1200000, 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -30,7 +31,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless:true
+     headless:true,
+     actionTimeout: 20_000, 
   },
 
   /* Configure projects for major browsers */
@@ -39,10 +41,13 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        // Headless has no real window to maximize, so use a full-HD viewport instead.
+        // Headless has no real window to maximize, so set an explicit full-HD viewport.
         viewport: { width: 1920, height: 1080 },
         launchOptions: {
-          slowMo: 800, // pause 800 ms between actions so YouTube has time to finish loading
+          args: [ '--window-size=1920,1080',
+                '--disable-translate',
+                '--disable-features=Translate,TranslateUI',],
+          slowMo: 1500, // pause 800 ms between actions so YouTube has time to finish loading
         },
       },
     }

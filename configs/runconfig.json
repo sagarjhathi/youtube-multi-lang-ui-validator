@@ -1,7 +1,7 @@
 {
   "runForAllLanguages": false,
-  "overideLanguageCountDefault": 2,
-  "overideLanguageCount": 2,
+  "overideLanguageCountDefault": 20,
+  "overideLanguageCount": 10,
 
   "runForAllLanguagesCI": true,
   "overideLanguageCountDefaultCI": 2,
