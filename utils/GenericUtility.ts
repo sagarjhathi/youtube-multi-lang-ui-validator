@@ -139,6 +139,10 @@ class GenericUtility{
 
 
     public async capture(testInfo:TestInfo ,...names:string[]){
+        // no screenshots on CI runs, only the trace is kept
+        if (process.env.CI) {
+            return "";
+        }
         try{
                 const inputNames=names.join("_");
                 const fileName=`${inputNames || "screenshot"}_${Date.now()}.png`;
