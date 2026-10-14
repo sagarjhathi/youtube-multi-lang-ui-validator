@@ -6,7 +6,23 @@ import {checkLanguage, detectLanguage} from "../eld-language-detection/languageD
 import { read } from "fs";
 
 // Languages (as shown in YouTube's language list) that eld cannot detect.
-const LANGUAGES_NOT_SUPPORTED_BY_ELD: string[] = ["Afrikaans", "Bahasa Indonesia", "Bosanski", "Dansk"];
+const LANGUAGES_NOT_SUPPORTED_BY_ELD: string[] = ["Afrikaans", "Bahasa Indonesia", "Bosanski"];
+
+
+test.beforeEach(async ({ page }) => {
+    // block images, fonts, video and tracking so the page's "load" is not held up by them
+    await page.route(
+        /\.(png|jpe?g|webp|gif|woff2?)(\?.*)?$|googlevideo\.com|doubleclick\.net|googlesyndication\.com|google-analytics\.com|\/api\/stats\/|\/generate_204/,
+        route => route.abort()
+    );
+
+    // ask for fresh page loads instead of cached ones
+    await page.route("**/*", route =>
+        route.request().resourceType() === "document"
+            ? route.continue({ headers: { ...route.request().headers(), "cache-control": "no-cache", pragma: "no-cache" } })
+            : route.fallback()
+    );
+});
 
 test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 
@@ -112,7 +128,7 @@ test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 
 
 			await landingPage.getLanguageElementByName(langText).click();
-
+            
 			await landingPage.clickingSettingEllipsesButton();
 			// genericUtility.isElementInViewport(landingPage.languageDropdownUnderSettings);
 			await genericUtility.capture(testInfo);

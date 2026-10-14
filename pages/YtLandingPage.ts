@@ -1,4 +1,4 @@
-import test, { Locator, Page, TestInfo } from "@playwright/test";
+import test, { expect, Locator, Page, TestInfo } from "@playwright/test";
 
 class YtLandingPage {
 
