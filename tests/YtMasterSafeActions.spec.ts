@@ -12,6 +12,12 @@ const withoutYoutubeMusic = (text: string): string => text.replace(/\s*YouTube\s
 // Settings button locator taken from the Java project: the host element, which is always in the page (the inner <a> is not).
 const SETTINGS_BUTTON_XPATH = "//ytd-topbar-menu-button-renderer[@class='style-scope ytd-masthead style-default']";
 
+// Like the Selenium project, where a click waits for the whole page to load: give the page up to 2 minutes after a language is picked.
+const LANGUAGE_PAGE_LOAD_TIMEOUT = 120000;
+
+// Like the TestNG RetryListener: run a failed test once more, in a fresh browser.
+test.describe.configure({ retries: 1 });
+
 // Languages (as shown in YouTube's language list) that eld cannot detect.
 const LANGUAGES_NOT_SUPPORTED_BY_ELD: string[] = ["Afrikaans", "Bahasa Indonesia", "Bosanski", "Dansk"];
 
@@ -43,8 +49,8 @@ test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 
         await genericUtility.capture(testInfo);
 
-        await safeActions.safeClick(landingPage.getLanguageElementByName(langText));
-        await landingPage.waitForPageToLoad();
+        await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+        await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
 
         // await landingPage.clickingSettingEllipsesButton();
         // await genericUtility.capture(testInfo);
@@ -125,8 +131,8 @@ test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 
 
 
-			await safeActions.safeClick(landingPage.getLanguageElementByName(langText));
-			await landingPage.waitForPageToLoad();
+			await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+			await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
             
 			// await landingPage.clickingSettingEllipsesButton();
 			// genericUtility.isElementInViewport(landingPage.languageDropdownUnderSettings);
@@ -134,6 +140,7 @@ test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 			// await landingPage.clickingSettingEllipsesButton();
 
 
+			await landingPage.expandSideMenuIfCollapsed();
 			let listOfSideMenu:Locator[]=await safeActions.safeFindElements(landingPage.sideMenuExpandedList);
 
 			// StringBuilder sideMenuItems=new StringBuilder();
@@ -243,8 +250,8 @@ await expect.soft(
 			console.log(langText+"    "+languageIndex);
 
 
-			await safeActions.safeClick(landingPage.getLanguageElementByName(langText));
-			await landingPage.waitForPageToLoad();
+			await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+			await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
 		//	waitUtility.waitForElementReady(landingPage.sideMenuCollapsedList);
           //  await safeActions.safeFindElements(landingPage.sideMenuCollapsedList);
 			// await landingPage.clickingSettingEllipsesButton();
@@ -357,8 +364,8 @@ await expect.soft(
 			console.log(langText+"    "+languageIndex);
 
 
-			await safeActions.safeClick(landingPage.getLanguageElementByName(langText));
-			await landingPage.waitForPageToLoad();
+			await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+			await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
 
 			// await landingPage.clickingSettingEllipsesButton();
 		//	genericUtility.isElementInViewport(landingPage.languageDropdownUnderSettings);
@@ -477,8 +484,8 @@ await expect.soft(
 			console.log(langText+"    "+languageIndex);
 
 
-			await safeActions.safeClick(landingPage.getLanguageElementByName(langText));
-			await landingPage.waitForPageToLoad();
+			await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+			await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
 
 			// await landingPage.clickingSettingEllipsesButton();
 		//	genericUtility.isElementInViewport(landingPage.languageDropdownUnderSettings);
@@ -680,8 +687,8 @@ let verifyingGlobalFilterLandingPageDataReader=readJson("verifyingGlobalFilterLa
 
 
 		//	genericUtility.smoothScrollToElement(landingPage.getLanguageElementByNameBy(langText));
-			await safeActions.safeClick(landingPage.getLanguageElementByName(langText));	
-			await landingPage.waitForPageToLoad();
+			await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+			await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
 
 			// await landingPage.clickingSettingEllipsesButton();
 			//genericUtility.isElementInViewport(landingPage.languageDropdownUnderSettings);
@@ -771,8 +778,8 @@ let verifyingGlobalFilterLandingPageDataReader=readJson("verifyingGlobalFilterLa
 			console.log(langText+"    "+languageIndex);
 
 
-			await safeActions.safeClick(landingPage.getLanguageElementByName(langText));	
-			await landingPage.waitForPageToLoad();
+			await safeActions.safeDomClick(landingPage.getLanguageElementByName(langText));
+			await landingPage.waitForPageToLoad(LANGUAGE_PAGE_LOAD_TIMEOUT);
 
 			// await landingPage.clickingSettingEllipsesButton();
 			//genericUtility.isElementInViewport(landingPage.languageDropdownUnderSettings);

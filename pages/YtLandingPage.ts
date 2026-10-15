@@ -217,11 +217,11 @@ class YtLandingPage {
 	}
 
 
-	/** Waits until the page has finished loading and the top bar is usable. */
-	public async waitForPageToLoad() :Promise<void>{
-		await this.page.waitForLoadState("load");
-		await this.searchInputLandinfPage.waitFor();
-		await this.settingEllipsesButton.waitFor();
+	/** Waits until the page has finished loading and the top bar is usable. Pass a timeout (ms) to wait longer than the defaults. */
+	public async waitForPageToLoad(timeoutMs?:number) :Promise<void>{
+		await this.page.waitForLoadState("load", { timeout: timeoutMs });
+		await this.searchInputLandinfPage.waitFor({ timeout: timeoutMs });
+		await this.settingEllipsesButton.waitFor({ timeout: timeoutMs });
 	}
 
 	public async openingLandingPage():Promise<void> {

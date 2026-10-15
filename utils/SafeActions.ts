@@ -82,6 +82,25 @@ class SafeActions {
         throw new Error("No elements ready after " + this.attempts + " attempts: " + locator);
     }
 
+    /** DOM click only. For clicks that start a page navigation: it does not wait for the navigation, and never clicks twice. */
+    public async safeDomClick(locator: Locator): Promise<void> {
+        console.log("Trying to DOM click element: " + locator);
+        for (let attempt = 1; attempt <= this.attempts; attempt++) {
+            try {
+                await locator.first().waitFor({ state: "visible", timeout: this.timeout });
+                if (await this.isReady(locator.first())) {
+                    await locator.first().evaluate(element => (element as HTMLElement).click());
+                    return;
+                }
+                console.log("Element not ready to click (attempt " + attempt + "): " + locator);
+            } catch (e) {
+                console.log("DOM click failed (attempt " + attempt + "): " + locator + " -> " + String(e).split("\n")[0]);
+            }
+            await this.refreshIfNeeded(attempt);
+        }
+        throw new Error("Failed to DOM click element after " + this.attempts + " attempts: " + locator);
+    }
+
     /** Native click first; if that fails, a DOM click (covers overlays and clicks whose navigation takes too long). */
     public async safeClick(locator: Locator): Promise<void> {
         console.log("Trying to click element: " + locator);
