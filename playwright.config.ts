@@ -20,7 +20,7 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 0 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 2 : 3,
+  workers: process.env.CI ? 2 : 2,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
    timeout: 2400000, 
@@ -34,24 +34,35 @@ export default defineConfig({
     screenshot: 'off',
     video: 'off',
      headless: true,
-     actionTimeout: 20_000, 
+     actionTimeout: 30_000, 
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: {
+      // use: {
+      //   ...devices['Desktop Chrome'],
+      //   // Headless has no real window to maximize, so set an explicit full-HD viewport.
+      //  // viewport: { width: 1920, height: 1080 },
+      //  viewport: null,
+      //   launchOptions: {
+      //     args: ['--start-maximized',
+      //           '--disable-translate',
+      //           '--disable-features=Translate,TranslateUI',],
+      //    // slowMo: 1500, // pause 800 ms between actions so YouTube has time to finish loading
+      //   },
+      // },
+
+       use: {
         ...devices['Desktop Chrome'],
-        // Headless has no real window to maximize, so set an explicit full-HD viewport.
-        viewport: { width: 1920, height: 1080 },
+        viewport: null,
+        deviceScaleFactor: undefined,
         launchOptions: {
-          args: [ '--window-size=1920,1080',
-                '--disable-translate',
-                '--disable-features=Translate,TranslateUI',],
-          slowMo: 1500, // pause 800 ms between actions so YouTube has time to finish loading
+            args: ['--start-maximized'],
+            slowMo: 2000,
         },
-      },
+    },
     }
 
     // {
