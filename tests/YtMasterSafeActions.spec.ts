@@ -9,6 +9,9 @@ import { read } from "fs";
 // YouTube lists "YouTube Music" in the side menu in some runs and not in others, so it is left out of the comparison.
 const withoutYoutubeMusic = (text: string): string => text.replace(/\s*YouTube\s+Music/g, "").trim();
 
+// Settings button locator taken from the Java project: the host element, which is always in the page (the inner <a> is not).
+const SETTINGS_BUTTON_XPATH = "//ytd-topbar-menu-button-renderer[@class='style-scope ytd-masthead style-default']";
+
 // Languages (as shown in YouTube's language list) that eld cannot detect.
 const LANGUAGES_NOT_SUPPORTED_BY_ELD: string[] = ["Afrikaans", "Bahasa Indonesia", "Bosanski", "Dansk"];
 
@@ -17,6 +20,7 @@ const LANGUAGES_NOT_SUPPORTED_BY_ELD: string[] = ["Afrikaans", "Bahasa Indonesia
 test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 
     const landingPage = new YtLandingPage(page, testInfo);
+    landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
     const genericUtility = new GenericUtility(page);
     const safeActions = new SafeActions(page);
     const testName: string = testInfo.title;
@@ -84,6 +88,7 @@ test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
 
 
 		let landingPage=new YtLandingPage(page,testInfo);
+		landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
 		let genericUtility=new GenericUtility(page);
 		const safeActions = new SafeActions(page);
 
@@ -191,6 +196,7 @@ await expect.soft(
 
            
 		let landingPage=new YtLandingPage(page,testInfo);
+		landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
 		let genericUtility=new GenericUtility(page);
 		const safeActions = new SafeActions(page);
 	
@@ -304,6 +310,7 @@ await expect.soft(
 
  
 		let landingPage=new YtLandingPage(page,testInfo);
+		landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
 		let genericUtility=new GenericUtility(page);
 		const safeActions = new SafeActions(page);
 	
@@ -428,6 +435,7 @@ await expect.soft(
 
 
 		let landingPage=new YtLandingPage(page,testInfo);
+		landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
 		let genericUtility=new GenericUtility(page);
 		const safeActions = new SafeActions(page);
 
@@ -541,6 +549,7 @@ await expect.soft(
 
  
 		let landingPage=new YtLandingPage(page,testInfo);
+		landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
 		let genericUtility=new GenericUtility(page);
 		const safeActions = new SafeActions(page);
 	
@@ -634,6 +643,7 @@ await expect.soft(
 
         
     const landingPage = new YtLandingPage(page, testInfo);
+    landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
     const genericUtility = new GenericUtility(page);
     const safeActions = new SafeActions(page);
     const testName: string = testInfo.title;
@@ -717,6 +727,7 @@ let verifyingGlobalFilterLandingPageDataReader=readJson("verifyingGlobalFilterLa
 
         
     const landingPage = new YtLandingPage(page, testInfo);
+    landingPage.settingEllipsesButton = page.locator(SETTINGS_BUTTON_XPATH).first();
     const genericUtility = new GenericUtility(page);
     const safeActions = new SafeActions(page);
     const testName: string = testInfo.title;
