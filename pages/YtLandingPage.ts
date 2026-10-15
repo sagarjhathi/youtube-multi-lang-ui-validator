@@ -8,17 +8,17 @@ class YtLandingPage {
 
     private sideMenu: Locator;
 
-    private sideMenuExpandedList: Locator;
+    public sideMenuExpandedList: Locator;
 
-    private settingEllipsesButton: Locator;
+    public settingEllipsesButton: Locator;
 
     public languageDropdownUnderSettings: Locator;
 
     private languageList: Locator;
 
-    private ellipsesYtLandingPageTopLeft: Locator;
+    public ellipsesYtLandingPageTopLeft: Locator;
 
-    private sideMenuCollapsedList: Locator;
+    public sideMenuCollapsedList: Locator;
 
     private countryCodeOnYtLogoLandingPage: Locator;
 
@@ -32,15 +32,15 @@ class YtLandingPage {
     //Cannot use this directly as this banner wouldnt show if yt does not have a search histroy so to show these recommendation banner
     private horizontalScrollBarLandingPage: Locator;
 
-    private locationDropdownUnderSettings: Locator;
+    public locationDropdownUnderSettings: Locator;
 
-    private locationList: Locator;
+    public locationList: Locator;
 
-    private globalFilterButton: Locator;
+    public globalFilterButton: Locator;
 
     private globalFilterData: Locator;
 
-    private closeButtonGlobalFilterPopup: Locator;
+    public closeButtonGlobalFilterPopup: Locator;
 
     public spinnerUnderSetting:Locator;
 
@@ -51,7 +51,7 @@ class YtLandingPage {
         this.testInfo = testInfo;
 
         this.sideMenu = page.locator("//div[@class='style-scope ytd-mini-guide-renderer']");
-        this.sideMenuExpandedList = page.locator("//ytd-guide-entry-renderer[@class='style-scope ytd-guide-section-renderer']");
+        this.sideMenuExpandedList = page.locator("//ytd-guide-entry-renderer[@class='style-scope ytd-guide-section-renderer']").filter({ visible: true });
      //   this.settingEllipsesButton = page.locator("//ytd-topbar-menu-button-renderer[@class='style-scope ytd-masthead style-default']");
      
         this.settingEllipsesButton = page.locator('ytd-topbar-menu-button-renderer a')
@@ -234,9 +234,27 @@ class YtLandingPage {
 	}
 
 
+	/** Clicks a language in the open list with a DOM click, so the click does not wait for the page navigation it starts. */
+	public async clickingLanguageByName(name:string) :Promise<void> {
+		const language:Locator = this.getLanguageElementByName(name);
+		await language.waitFor({ state: "visible" });
+		await language.evaluate(element => (element as HTMLElement).click());
+	}
+
 	public async clickingSettingEllipsesButton() :Promise<void> {
 		console.log("Clicking settings ellipses button...");
-        await this.settingEllipsesButton.click();
+		// the click waits up to the 20s action timeout; if the button is still not usable, refresh the page and try again, 2 refreshes at most
+		for (let attempt = 1; attempt <= 3; attempt++) {
+			try {
+				await this.settingEllipsesButton.click();
+				return;
+			} catch (e) {
+				if (attempt === 3) throw e;
+				console.log("Settings ellipses button not clickable, refreshing the page, refresh " + attempt + " of 2");
+				await this.page.reload({ waitUntil: "domcontentloaded" });
+				await this.waitForPageToLoad();
+			}
+		}
 
 	}
 
@@ -287,11 +305,16 @@ class YtLandingPage {
 	}
 
 
-	/** Opens the hamburger menu only if the side menu is not already expanded. */
+	/** Clicks the hamburger only when the side menu is collapsed (its button has aria-pressed="true" while the menu is open), so an open menu is never closed. */
 	public async expandSideMenuIfCollapsed() :Promise<void>{
-		if (!(await this.sideMenuExpandedList.first().isVisible())) {
-			console.log("Side menu is collapsed, expanding it...");
+		const menuButton:Locator = this.ellipsesYtLandingPageTopLeft.locator("button");
+		for (let attempt = 1; attempt <= 2; attempt++) {
+			if ((await menuButton.getAttribute("aria-pressed")) === "true") {
+				return;
+			}
+			console.log("Side menu is collapsed, expanding it, attempt " + attempt);
 			await this.ellipsesYtLandingPageTopLeft.click();
+			await this.sideMenuExpandedList.first().waitFor({ timeout: 5000 }).catch(() => {});
 		}
 	}
 

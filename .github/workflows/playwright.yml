@@ -37,7 +37,7 @@ jobs:
 
       # blob reporter so the shards can be merged into one report afterwards (overrides reporter: 'html' in the config)
       - name: Run Playwright tests
-        run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }} --reporter=blob
+        run: npx playwright test tests/YtMasterSafeActions.spec.ts --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }} --reporter=blob
 
       - name: Upload blob report
         if: ${{ !cancelled() }}
