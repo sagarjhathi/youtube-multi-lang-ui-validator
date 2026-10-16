@@ -1,0 +1,158 @@
+# YouTube Multi-Language UI Validator (Playwright)
+
+End-to-end tests that switch the YouTube interface language (and region) again and again, and check that the UI shows the right text for each one. Written with Playwright and TypeScript. It is the Playwright version of a Java and Selenium project that does the same checks.
+
+The tests run against the **live** youtube.com, signed out, in a real browser. Nothing is mocked.
+
+## What is checked
+
+| Test | What it verifies |
+|---|---|
+| `verifyingSideMenuLanguageAsInSettings` | Expanded side-menu text for each language equals the expected text in the data sheet |
+| `verifyingSideMenuLanguageAsInSettingsLingua` | The side-menu text is detected as the expected language, and `<html lang>` has the expected value |
+| `verifyingSideMenuCollapsedLangAsInSettings` | Collapsed side-menu text for each language equals the expected text |
+| `verifyingSideMenuCollapsedLangAsInSettingsLingua` | Detected language and `<html lang>` for the collapsed menu |
+| `verifyingSettingOptionsLang` | Detected language of the settings menu, and `<html lang>` |
+| `verifyCountryCodeAsBasedOnRegion` | The country code on the YouTube logo for each region in the location list |
+| `verifyingGlobalFilterLandingPage` | Search-filter popup text on the results page for each language |
+| `verifyingGlobalFilterLandingPageLingua` | Detected language of the filter popup, and `<html lang>` |
+
+The tests whose name ends in `Lingua` use the `eld` language detector instead of an exact text match. They are named after Lingua, the detector the Java project uses.
+
+Text comparisons use **soft assertions**, so one wrong language is reported at the end and the loop keeps going.
+
+## Requirements
+
+- Node.js 24
+- Windows, macOS or Linux
+
+## Setup
+
+```
+npm install
+npx playwright install chromium
+```
+
+## Running the tests
+
+Run the safe-actions spec, the one used on CI:
+
+```
+npx playwright test tests/YtMasterSafeActions.spec.ts
+```
+
+Useful variants:
+
+```
+npx playwright test tests/YtMasterSafeActions.spec.ts -g "verifyingGlobalFilterLandingPage$"   # one test by name
+npx playwright test --last-failed                                                              # only what failed last time
+npx playwright test --workers=1                                                                # one test at a time
+npx playwright show-report                                                                     # open the HTML report
+```
+
+Notes:
+- `npx playwright test` with no file runs every spec in `tests/`: both `YtMaster.spec.ts` and `YtMasterSafeActions.spec.ts`, plus the scratch file `test-1.spec.ts`. Give a file path to run only one.
+- A full run of all languages takes a while: each long test needs about 20 to 30 minutes.
+- Headless is on by default (`headless: true` in `playwright.config.ts`). Set it to `false` to watch the browser.
+
+## Project layout
+
+```
+tests/
+  YtMaster.spec.ts              original version, plain Playwright clicks and waits
+  YtMasterSafeActions.spec.ts   same tests using the SafeActions helper (the maintained one)
+pages/YtLandingPage.ts          page object: locators and page methods
+utils/
+  SafeActions.ts                safe click / find element / find elements with waits and retries
+  GenericUtility.ts             html lang attribute, Enter key, screenshots, iteration counts
+  ReadJSON.ts                   reads and writes the data files in data/
+configs/
+  runconfig.json                run settings (language count, countries, URL)
+  RunConfig.ts                  reads runconfig.json, environment variables win
+eld-language-detection/
+  languageDetector.mts          language detection helpers on top of the eld library
+data/                           expected results, one JSON file per check
+.github/workflows/playwright.yml  CI: sharded run with one merged report
+docs/                           working notes (local only, git-ignored)
+```
+
+### Data files (`data/`)
+
+| File | Used for |
+|---|---|
+| `verifyingSideMenuLanguageAsInSettings.json` | Expected expanded side-menu text per language |
+| `verifyingSideMenuCollapsedLangAsInSettings.json` | Expected collapsed side-menu text per language |
+| `ApplicableLanguageExpectedLanguage.json` | Expected detected language per language |
+| `ApplicableLanguageExpectedAttibute.json` | Expected `<html lang>` value per language (the file name keeps its original spelling) |
+| `Country_Name_Code.json` | Expected country code per region |
+| `verifyingGlobalFilterLandingPage.json` | Expected search-filter popup text per language |
+| `LanguagesList.json` | List of languages |
+
+The expected text comes from the live site, so it goes out of date when YouTube changes its menus. When a check starts failing on many languages at once with the same small difference, the sheet is probably stale.
+
+## Configuration
+
+### `configs/runconfig.json`
+
+| Key | Meaning |
+|---|---|
+| `runForAllLanguages` | `true` runs every language row; `false` runs only `overideLanguageCount` rows |
+| `overideLanguageCount` | How many languages to run when `runForAllLanguages` is `false` |
+| `runForAllCountries`, `overideCountriesCount` | The same two settings for the country test |
+| `Url` | Start page |
+| keys ending in `CI` | The same settings for scheduled runs (see below) |
+
+Every key can be overridden with an environment variable of the same name, and the variable wins over the file. For a quick run of 10 languages:
+
+```
+# PowerShell
+$env:runForAllLanguages = "false"; $env:overideLanguageCount = "10"; npx playwright test tests/YtMasterSafeActions.spec.ts
+
+# Git Bash / Linux / macOS
+runForAllLanguages=false overideLanguageCount=10 npx playwright test tests/YtMasterSafeActions.spec.ts
+```
+
+Setting `IS_CRON=true` makes the tests read the `...CI` keys instead.
+
+### `playwright.config.ts`
+
+| Setting | Value |
+|---|---|
+| Browser | Playwright's Chromium, 1920x1080 viewport, `--disable-blink-features=AutomationControlled` |
+| Workers | 2 |
+| Retries | 0 locally and 1 on CI in the config; `YtMasterSafeActions.spec.ts` also sets 1 retry for itself |
+| Test timeout | 40 minutes |
+| Action timeout | 30 seconds |
+| `slowMo` | 500 ms between browser actions |
+| Trace | kept on failure; screenshots and video off |
+| Reporter | HTML |
+
+When the `CI` environment variable is set, the screenshot helper `GenericUtility.capture()` does nothing.
+
+## How the tests work
+
+1. Open youtube.com, open the settings menu, open the language list.
+2. For each language row: pick the language, wait for the page to reload, read the part of the UI that the test checks (side menu, settings menu, filter popup or logo), and compare it with the expected data or detect its language.
+3. Open the language list again for the next language.
+
+`SafeActions` (a port of the Java class of the same name) is used for clicks and for reading element lists in the safe spec. It waits until an element is visible and enabled, tries up to 3 times, refreshes the page between the later attempts, falls back to a DOM click, and throws a clear error when everything fails. `safeDomClick` is used for language clicks, so Playwright does not wait for the page navigation the click starts.
+
+### Language detection
+
+Detection uses the [`eld`](https://www.npmjs.com/package/eld) library through `eld-language-detection/languageDetector.mts`. `eld` has no model for Afrikaans, Bahasa Indonesia and Bosanski, and mixes up Dansk, so those four are in a skip list in the spec and only their `<html lang>` value is checked.
+
+## CI (GitHub Actions)
+
+`.github/workflows/playwright.yml` runs `tests/YtMasterSafeActions.spec.ts` on push and pull request to `main` or `master`, and on manual run. It splits the tests into 4 shards, uploads each shard's blob report, then merges them into a single HTML report that is uploaded as the **`playwright-report`** artifact.
+
+The expected data was captured from India. GitHub's runners are in the US, so menus, wording and country codes can differ there.
+
+## Known issues
+
+This tests a page that the project does not control, so some failures are not bugs in the tests:
+
+- YouTube changes menus without notice. For example "YouTube Music" and "YouTube TV" appear in the side menu in some runs and not in others, so the first test leaves both out of its comparison.
+- A language switch reloads the whole page, and some languages (Greek in particular) sometimes load slowly or hang.
+- Long loops of many language switches can fail at a different place from run to run.
+
+The notes in `docs/` (local only, not committed) list every failure type seen, everything that was tried, and the run results. Start with `docs/README.md`.
