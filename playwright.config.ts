@@ -18,7 +18,7 @@ export default defineConfig({
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
-  retries: process.env.CI ? 0 : 0,
+  retries: process.env.CI ? 1 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 2 : 2,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
@@ -30,7 +30,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: process.env.CI ? 'off' : 'retain-on-failure',
+    trace: process.env.CI ? 'on' : 'retain-on-failure',
     screenshot: 'off',
     video: 'off',
      headless: true,
@@ -41,29 +41,22 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      // use: {
-      //   ...devices['Desktop Chrome'],
-      //   // Headless has no real window to maximize, so set an explicit full-HD viewport.
-      //  // viewport: { width: 1920, height: 1080 },
-      //  viewport: null,
-      //   launchOptions: {
-      //     args: ['--start-maximized',
-      //           '--disable-translate',
-      //           '--disable-features=Translate,TranslateUI',],
-      //    // slowMo: 1500, // pause 800 ms between actions so YouTube has time to finish loading
-      //   },
-      // },
-
-       use: {
+      use: {
         ...devices['Desktop Chrome'],
-        viewport: null,
-        deviceScaleFactor: undefined,
+        // Headless has no real window to maximize, so set an explicit full-HD viewport.
+        viewport: { width: 1920, height: 1080 },
         launchOptions: {
-            args: ['--start-maximized'],
-            slowMo: 2000,
+          args: ['--start-maximized',
+                '--disable-translate',
+                '--disable-features=Translate,TranslateUI',
+                '--disable-blink-features=AutomationControlled',],
+          slowMo: 500, // pause 800 ms between actions so YouTube has time to finish loading
         },
-    },
+      },
+
+      
     }
+    
 
     // {
     //   name: 'firefox',
