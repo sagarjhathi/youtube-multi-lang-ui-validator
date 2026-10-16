@@ -7,13 +7,13 @@
   "overideLanguageCountDefaultCI": 2,
   "overideLanguageCountCI": 2,
 
-  "runForAllCountries": false,
-  "overideCountriesCountDefault": 2,
+  "runForAllCountries": true,
+  "overideCountriesCountDefault": 110,
   "overideCountriesCount": 2,
 
   "runForAllCountriesCI": true,
-  "overideCountriesCountDefaultCI": 2,
-  "overideCountriesCountCI": 2,
+  "overideCountriesCountDefaultCI": 110,
+  "overideCountriesCountCI": 110,
 
   "Url": "https://www.youtube.com/"
 }

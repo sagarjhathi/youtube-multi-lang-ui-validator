@@ -6,8 +6,8 @@ import { readJson } from "../utils/ReadJSON";
 import {checkLanguage, detectLanguage} from "../eld-language-detection/languageDetector.mjs"
 import { read } from "fs";
 
-// YouTube lists "YouTube Music" in the side menu in some runs and not in others, so it is left out of the comparison.
-const withoutYoutubeMusic = (text: string): string => text.replace(/\s*YouTube\s+Music/g, "").trim();
+// YouTube adds and removes "YouTube Music" and "YouTube TV" in the side menu between runs, so both are left out of the comparison.
+const withoutOptionalYoutubeEntries = (text: string): string => text.replace(/\s*YouTube\s+(Music|TV)\b/g, "").trim();
 
 // Settings button locator taken from the Java project: the host element, which is always in the page (the inner <a> is not).
 const SETTINGS_BUTTON_XPATH = "//ytd-topbar-menu-button-renderer[@class='style-scope ytd-masthead style-default']";
@@ -70,8 +70,8 @@ test("verifyingSideMenuLanguageAsInSettings", async ({ page }, testInfo) => {
         console.log("[" + testName + "] Side menu text read from the page: " + sideMenuItems);
 
         // soft assertion: a mismatch is reported at the end of the test and the loop keeps going
-        expect.soft(withoutYoutubeMusic(sideMenuItems), "Mismatch in the Actual and Expected data for language=" + langText)
-            .toBe(withoutYoutubeMusic(rows[languageIndex]["Expected Data"]));
+        expect.soft(withoutOptionalYoutubeEntries(sideMenuItems), "Mismatch in the Actual and Expected data for language=" + langText)
+            .toBe(withoutOptionalYoutubeEntries(rows[languageIndex]["Expected Data"]));
 
         await safeActions.safeClick(landingPage.settingEllipsesButton);
         await safeActions.safeClick(landingPage.languageDropdownUnderSettings);
