@@ -55,6 +55,21 @@ Notes:
 - A full run of all languages takes a while: each long test needs about 20 to 30 minutes.
 - Headless is on by default (`headless: true` in `playwright.config.ts`). Set it to `false` to watch the browser.
 
+## Reports
+
+Every run writes two reports:
+
+- **Playwright HTML report**: `playwright-report/`, open with `npx playwright show-report`.
+- **Allure results**: `allure-results/`. Turn them into a report with:
+
+  ```
+  npm run allure:generate     # builds allure-report/
+  npm run allure:open         # opens it in the browser
+  npm run allure:serve        # or: generate and serve in one step
+  ```
+
+  Allure needs Java on the machine (the command line tool is a Java program).
+
 ## Project layout
 
 ```
@@ -125,7 +140,7 @@ Setting `IS_CRON=true` makes the tests read the `...CI` keys instead.
 | Action timeout | 30 seconds |
 | `slowMo` | 500 ms between browser actions |
 | Trace | kept on failure; screenshots and video off |
-| Reporter | HTML |
+| Reporters | HTML and Allure (`allure-playwright`, results in `allure-results/`) |
 
 When the `CI` environment variable is set, the screenshot helper `GenericUtility.capture()` does nothing.
 
@@ -143,7 +158,17 @@ Detection uses the [`eld`](https://www.npmjs.com/package/eld) library through `e
 
 ## CI (GitHub Actions)
 
-`.github/workflows/playwright.yml` runs `tests/YtMasterSafeActions.spec.ts` on push and pull request to `main` or `master`, and on manual run. It splits the tests into 4 shards, uploads each shard's blob report, then merges them into a single HTML report that is uploaded as the **`playwright-report`** artifact.
+`.github/workflows/playwright.yml` runs `tests/YtMasterSafeActions.spec.ts` on push and pull request to `main` or `master`, on manual run, and every night at 01:30 IST (cron `0 20 * * *`, since GitHub cron uses UTC). The nightly run sets `IS_CRON=true`, so it reads the `...CI` keys in `runconfig.json`. It splits the tests into 4 shards, uploads each shard's blob report, then merges them into a single HTML report that is uploaded as the **`playwright-report`** artifact. Each shard also uploads its Allure results; a final step puts them together and uploads one **`allure-report`** artifact (download it, unzip it and open the folder with `npx allure open <unzipped folder>`; Allure pages do not work when opened straight from the file system).
+
+### Published reports (GitHub Pages)
+
+On a push to `main` or `master`, a manual run or the nightly run, the merge job also publishes the reports to the `gh-pages` branch (pull requests only build them):
+
+- `index.html`: a landing page with links to both reports and the run number, commit and time (from `.github/pages/index.html`)
+- `allure/`: the Allure report. Before it is generated, the `history` folder of the previous published report is copied in, so the trend graphs carry over from run to run
+- `playwright/`: the merged Playwright HTML report
+
+Each publish replaces the whole branch with one new commit, so `gh-pages` never grows. One-time setup: in the repository go to Settings, Pages, choose "Deploy from a branch", branch `gh-pages`, folder `/ (root)`. The first run creates the branch. The merge job has `contents: write` permission (set in the workflow file) to push it. Pages on a private repository depends on the GitHub plan.
 
 The expected data was captured from India. GitHub's runners are in the US, so menus, wording and country codes can differ there.
 

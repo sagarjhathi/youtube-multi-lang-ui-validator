@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main, master]
   workflow_dispatch:
+  schedule:
+    # every night at 01:30 IST (GitHub cron runs in UTC: 20:00 UTC = 01:30 IST the next morning)
+    - cron: "0 20 * * *"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -21,6 +24,9 @@ jobs:
       matrix:
         shardIndex: [1, 2, 3, 4]
         shardTotal: [4]
+    env:
+      # RunConfig reads this: true only for the nightly run, which then uses the ...CI keys in configs/runconfig.json
+      IS_CRON: ${{ github.event_name == 'schedule' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,9 +41,10 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      # blob reporter so the shards can be merged into one report afterwards (overrides reporter: 'html' in the config)
+      # blob reporter so the shards can be merged into one HTML report afterwards, allure-playwright writes allure-results
+      # (both override the reporters in the config)
       - name: Run Playwright tests
-        run: npx playwright test tests/YtMasterSafeActions.spec.ts --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }} --reporter=blob
+        run: npx playwright test tests/YtMasterSafeActions.spec.ts --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }} --reporter=blob,allure-playwright
 
       - name: Upload blob report
         if: ${{ !cancelled() }}
@@ -47,6 +54,14 @@ jobs:
           path: blob-report
           retention-days: 7
 
+      - name: Upload allure results
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.shardIndex }}
+          path: allure-results
+          retention-days: 7
+
   merge-reports:
     name: Merge reports
     needs: test
@@ -54,6 +69,8 @@ jobs:
     if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write   # needed to push the reports to the gh-pages branch
     steps:
       - uses: actions/checkout@v4
 
@@ -81,3 +98,81 @@ jobs:
           name: playwright-report
           path: playwright-report
           retention-days: 14
+
+      # allure-commandline needs Java
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Download allure results from all shards
+        uses: actions/download-artifact@v4
+        with:
+          path: allure-results
+          pattern: allure-results-*
+          merge-multiple: true
+
+      # The gh-pages branch holds the published reports; we need the previous Allure report
+      # from it to carry the trend history forward. On the very first run the branch does not exist yet.
+      - name: Check whether gh-pages exists
+        id: pages_branch
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out gh-pages
+        if: steps.pages_branch.outputs.exists == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - name: Start an empty site folder (first run only)
+        if: steps.pages_branch.outputs.exists != 'true'
+        run: |
+          mkdir site
+          cd site
+          git init
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+
+      - name: Copy previous Allure history (for trend graphs)
+        run: |
+          if [ -d site/allure/history ]; then
+            cp -r site/allure/history allure-results/history
+          fi
+
+      - name: Generate Allure report
+        run: npm run allure:generate
+
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 14
+
+      # ---- Publish ----
+      # Pull requests only build the reports; pushes to main or master and manual runs publish.
+
+      - name: Publish to gh-pages
+        if: ${{ github.event_name != 'pull_request' }}
+        run: |
+          cd site
+          # Start from a clean folder: remove the old reports, then add the new ones.
+          rm -rf playwright allure index.html
+          cp -r ../playwright-report playwright
+          cp -r ../allure-report allure
+          cp ../.github/pages/index.html index.html
+          sed -i "s|__RUN_INFO__|Run #${{ github.run_number }} - commit ${GITHUB_SHA::7} - $(date -u +'%Y-%m-%d %H:%M UTC')|" index.html
+          touch .nojekyll
+
+          # One fresh commit each time, so the branch never grows with old reports.
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan latest 2>/dev/null || git checkout -B latest
+          git add -A
+          git commit -m "Publish reports from run #${{ github.run_number }}"
+          git push --force origin latest:gh-pages
