@@ -1,0 +1,422 @@
+Opened YouTube landing page.
+Giving input into the search bar with input as = youtube
+clickEnter(locator('//input[@class=\'ytSearchboxComponentInput yt-searchbox-input title\']'))
+Sent ENTER to locator('//input[@class=\'ytSearchboxComponentInput yt-searchbox-input title\']')
+[verifyingGlobalFilterLandingPage] Execution is Not CRON Job Hence referring to normal keys from runconfig.json
+[verifyingGlobalFilterLandingPage] Run for all is on, row count is == 53
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Azərbaycan    1
+Looking for language element with name: Azərbaycan
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Azərbaycan\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bahasa Indonesia    2
+Looking for language element with name: Bahasa Indonesia
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bahasa Indonesia\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bosanski    3
+Looking for language element with name: Bosanski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bosanski\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Català    4
+Looking for language element with name: Català
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Català\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Dansk    5
+Looking for language element with name: Dansk
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Dansk\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Deutsch    6
+Looking for language element with name: Deutsch
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Deutsch\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Eesti    7
+Looking for language element with name: Eesti
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Eesti\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (India)    8
+Looking for language element with name: English (India)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (India)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (UK)    9
+Looking for language element with name: English (UK)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (UK)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (US)    10
+Looking for language element with name: English (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (US)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (España)    11
+Looking for language element with name: Español (España)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (España)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (Latinoamérica)    12
+Looking for language element with name: Español (Latinoamérica)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (Latinoamérica)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (US)    13
+Looking for language element with name: Español (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (US)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Euskara    14
+Looking for language element with name: Euskara
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Euskara\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français    15
+Looking for language element with name: Français
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français (Canada)    16
+Looking for language element with name: Français (Canada)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français (Canada)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Hrvatski    17
+Looking for language element with name: Hrvatski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Hrvatski\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Íslenska    18
+Looking for language element with name: Íslenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Íslenska\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Italiano    19
+Looking for language element with name: Italiano
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Italiano\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Latviešu valoda    20
+Looking for language element with name: Latviešu valoda
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Latviešu valoda\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Lietuvių    21
+Looking for language element with name: Lietuvių
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Lietuvių\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Magyar    22
+Looking for language element with name: Magyar
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Magyar\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Nederlands    23
+Looking for language element with name: Nederlands
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Nederlands\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Polski    24
+Looking for language element with name: Polski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Polski\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português    25
+Looking for language element with name: Português
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português (Brasil)    26
+Looking for language element with name: Português (Brasil)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português (Brasil)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Shqip    27
+Looking for language element with name: Shqip
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Shqip\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Slovenščina    28
+Looking for language element with name: Slovenščina
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Slovenščina\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Suomi    29
+Looking for language element with name: Suomi
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Suomi\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Svenska    30
+Looking for language element with name: Svenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Svenska\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Tiếng Việt    31
+Looking for language element with name: Tiếng Việt
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Tiếng Việt\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Türkçe    32
+Looking for language element with name: Türkçe
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Türkçe\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Беларуская    33
+Looking for language element with name: Беларуская
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Беларуская\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Български    34
+Looking for language element with name: Български
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Български\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Русский    35
+Looking for language element with name: Русский
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Русский\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Українська    36
+Looking for language element with name: Українська
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Українська\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Ελληνικά    37
+Looking for language element with name: Ελληνικά
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Ελληνικά\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Հայերեն    38
+Looking for language element with name: Հայերեն
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Հայերեն\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+עברית    39
+Looking for language element with name: עברית
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'עברית\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+العربية    40
+Looking for language element with name: العربية
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'العربية\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+فارسی    41
+Looking for language element with name: فارسی
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'فارسی\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+हिन्दी    42
+Looking for language element with name: हिन्दी
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'हिन्दी\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+বাংলা    43
+Looking for language element with name: বাংলা
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'বাংলা\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ਪੰਜਾਬੀ    44
+Looking for language element with name: ਪੰਜਾਬੀ
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ਪੰਜਾਬੀ\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ગુજરાતી    45
+Looking for language element with name: ગુજરાતી
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ગુજરાતી\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+தமிழ்    46
+Looking for language element with name: தமிழ்
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'தமிழ்\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+తెలుగు    47
+Looking for language element with name: తెలుగు
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'తెలుగు\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (简体)    48
+Looking for language element with name: 中文 (简体)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (简体)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (繁體)    49
+Looking for language element with name: 中文 (繁體)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (繁體)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (香港)    50
+Looking for language element with name: 中文 (香港)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (香港)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+日本語    51
+Looking for language element with name: 日本語
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'日本語\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+한국어    52
+Looking for language element with name: 한국어
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'한국어\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')

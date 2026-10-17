@@ -1,0 +1,1493 @@
+Opened YouTube landing page.
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettingsLingua] Execution is Not CRON Job Hence referring to normal keys from runconfig.json
+[verifyingSideMenuLanguageAsInSettingsLingua] Run for all is on, row count is == 53
+Afrikaans lang text from the sheet   0
+Looking for language element with name: Afrikaans
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Afrikaans\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Tuis
+Kortvideo's
+Intekeninge
+Myne
+Geskiedenis
+Musiek
+Flieks en TV
+Ophef
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Aangeegeskiedenis
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Dutch
+Input Text        : Tuis Kortvideo's Intekeninge Myne Geskiedenis Musiek Flieks en TV Ophef YouTube Premium YouTube TV YouTube Music YouTube Kids Aangeegeskiedenis
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: af-ZA
+ApplicableLanguage  Afrikaans     Detected Language   Dutch  Expected Language  AFRIKAANS
+ApplicableLanguage  Afrikaans     Detected Language attribute   af-ZA  Expected Language attribute af-ZA
+Skipping detected language check for Afrikaans (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Azərbaycan lang text from the sheet   1
+Looking for language element with name: Azərbaycan
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Azərbaycan\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Ev
+Shorts
+Abunəliklər
+Siz
+Tarixçə
+Musiqi
+Film və TV
+Hayp
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Xəbər tarixçəsi
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Azerbaijani
+Input Text        : Ev Shorts Abunəliklər Siz Tarixçə Musiqi Film və TV Hayp YouTube Premium YouTube TV YouTube Music YouTube Kids Xəbər tarixçəsi
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: az-Latn-AZ
+ApplicableLanguage  Azərbaycan     Detected Language   Azerbaijani  Expected Language  AZERBAIJANI
+ApplicableLanguage  Azərbaycan     Detected Language attribute   az-Latn-AZ  Expected Language attribute az-Latn-AZ
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bahasa Indonesia lang text from the sheet   2
+Looking for language element with name: Bahasa Indonesia
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bahasa Indonesia\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Beranda
+Shorts
+Subscription
+Anda
+Histori
+Musik
+Film & TV
+Beri hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Histori laporan
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Beranda Shorts Subscription Anda Histori Musik Film & TV Beri hype YouTube Premium YouTube TV YouTube Music YouTube Kids Histori laporan
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: id-ID
+ApplicableLanguage  Bahasa Indonesia     Detected Language   English  Expected Language  INDONESIAN
+ApplicableLanguage  Bahasa Indonesia     Detected Language attribute   id-ID  Expected Language attribute id-ID
+Skipping detected language check for Bahasa Indonesia (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bosanski lang text from the sheet   3
+Looking for language element with name: Bosanski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bosanski\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Početna stranica
+Shorts
+Pretplate
+Vi
+Hi‪storija
+Muzika
+Filmovi i TV
+Poticanje interesovanja
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historija prijava
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Croatian
+Input Text        : Početna stranica Shorts Pretplate Vi Hi‪storija Muzika Filmovi i TV Poticanje interesovanja YouTube Premium YouTube TV YouTube Music YouTube Kids Historija prijava
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bs-Latn-BA
+ApplicableLanguage  Bosanski     Detected Language   Croatian  Expected Language  CROATIAN
+ApplicableLanguage  Bosanski     Detected Language attribute   bs-Latn-BA  Expected Language attribute bs-Latn-BA
+Skipping detected language check for Bosanski (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Català lang text from the sheet   4
+Looking for language element with name: Català
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Català\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Inici
+Shorts
+Subscripcions
+Tu
+Historial
+Música
+Pel·lícules i televisió
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historial d'informes
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Catalan
+Input Text        : Inici Shorts Subscripcions Tu Historial Música Pel·lícules i televisió Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial d'informes
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ca-ES
+ApplicableLanguage  Català     Detected Language   Catalan  Expected Language  CATALAN
+ApplicableLanguage  Català     Detected Language attribute   ca-ES  Expected Language attribute ca-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Dansk lang text from the sheet   5
+Looking for language element with name: Dansk
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Dansk\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Start
+Shorts
+Abonnementer
+Dig
+Historik
+Musik
+Film og tv
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Rapporteringshistorik
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Danish
+Input Text        : Start Shorts Abonnementer Dig Historik Musik Film og tv Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Rapporteringshistorik
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: da-DK
+ApplicableLanguage  Dansk     Detected Language   Danish  Expected Language  DANISH
+ApplicableLanguage  Dansk     Detected Language attribute   da-DK  Expected Language attribute da-DK
+Skipping detected language check for Dansk (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Deutsch lang text from the sheet   6
+Looking for language element with name: Deutsch
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Deutsch\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Startseite
+Shorts
+Abos
+Mein YouTube
+Verlauf
+Musik
+Filme & Shows
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Meldeverlauf
+
+========== LANGUAGE DETECTION ==========
+Detected Language : German
+Input Text        : Startseite Shorts Abos Mein YouTube Verlauf Musik Filme & Shows Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Meldeverlauf
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: de-DE
+ApplicableLanguage  Deutsch     Detected Language   German  Expected Language  GERMAN
+ApplicableLanguage  Deutsch     Detected Language attribute   de-DE  Expected Language attribute de-DE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Eesti lang text from the sheet   7
+Looking for language element with name: Eesti
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Eesti\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Avaleht
+Shorts
+Tellimused
+Teie
+Ajalugu
+Muusika
+Filmid ja telesarjad
+Haipimine
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Teavituste ajalugu
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Estonian
+Input Text        : Avaleht Shorts Tellimused Teie Ajalugu Muusika Filmid ja telesarjad Haipimine YouTube Premium YouTube TV YouTube Music YouTube Kids Teavituste ajalugu
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: et-EE
+ApplicableLanguage  Eesti     Detected Language   Estonian  Expected Language  ESTONIAN
+ApplicableLanguage  Eesti     Detected Language attribute   et-EE  Expected Language attribute et-EE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (India) lang text from the sheet   8
+Looking for language element with name: English (India)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (India)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Home
+Shorts
+Subscriptions
+You
+History
+Music
+Movies & TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Report history
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Report history
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-IN
+ApplicableLanguage  English (India)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (India)     Detected Language attribute   en-IN  Expected Language attribute en-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (UK) lang text from the sheet   9
+Looking for language element with name: English (UK)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (UK)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Home
+Shorts
+Subscriptions
+You
+History
+Music
+Movies & TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Report history
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Report history
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-GB
+ApplicableLanguage  English (UK)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (UK)     Detected Language attribute   en-GB  Expected Language attribute en-GB
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (US) lang text from the sheet   10
+Looking for language element with name: English (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (US)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Home
+Shorts
+Subscriptions
+You
+History
+Music
+Movies & TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Report history
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Report history
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en
+ApplicableLanguage  English (US)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (US)     Detected Language attribute   en  Expected Language attribute en
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (España) lang text from the sheet   11
+Looking for language element with name: Español (España)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (España)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Inicio
+Shorts
+Suscripciones
+Tú
+Historial
+Música
+Películas y series
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historial de denuncias
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Inicio Shorts Suscripciones Tú Historial Música Películas y series Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial de denuncias
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-ES
+ApplicableLanguage  Español (España)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (España)     Detected Language attribute   es-ES  Expected Language attribute es-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (Latinoamérica) lang text from the sheet   12
+Looking for language element with name: Español (Latinoamérica)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (Latinoamérica)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Principal
+Shorts
+Suscripciones
+Tú
+Historial
+Música
+Películas y TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historial de denuncias
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Principal Shorts Suscripciones Tú Historial Música Películas y TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial de denuncias
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-419
+ApplicableLanguage  Español (Latinoamérica)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (Latinoamérica)     Detected Language attribute   es-419  Expected Language attribute es-419
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (US) lang text from the sheet   13
+Looking for language element with name: Español (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (US)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Principal
+Shorts
+Suscripciones
+Tú
+Historial
+Música
+Películas y TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historial de denuncias
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Principal Shorts Suscripciones Tú Historial Música Películas y TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial de denuncias
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-US
+ApplicableLanguage  Español (US)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (US)     Detected Language attribute   es-US  Expected Language attribute es-US
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Euskara lang text from the sheet   14
+Looking for language element with name: Euskara
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Euskara\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Orri nagusia
+Shorts
+Harpidetzak
+Zu
+Historia
+Musika
+Filmak eta saioak
+Ikusmin-adierazpenak
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Salaketa-historia
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Basque
+Input Text        : Orri nagusia Shorts Harpidetzak Zu Historia Musika Filmak eta saioak Ikusmin-adierazpenak YouTube Premium YouTube TV YouTube Music YouTube Kids Salaketa-historia
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: eu-ES
+ApplicableLanguage  Euskara     Detected Language   Basque  Expected Language  BASQUE
+ApplicableLanguage  Euskara     Detected Language attribute   eu-ES  Expected Language attribute eu-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français lang text from the sheet   15
+Looking for language element with name: Français
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Accueil
+Shorts
+Abonnements
+Vous
+Historique
+Musique
+Films et séries TV
+Boost
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Signalements
+
+========== LANGUAGE DETECTION ==========
+Detected Language : French
+Input Text        : Accueil Shorts Abonnements Vous Historique Musique Films et séries TV Boost YouTube Premium YouTube TV YouTube Music YouTube Kids Signalements
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-FR
+ApplicableLanguage  Français     Detected Language   French  Expected Language  FRENCH
+ApplicableLanguage  Français     Detected Language attribute   fr-FR  Expected Language attribute fr-FR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français (Canada) lang text from the sheet   16
+Looking for language element with name: Français (Canada)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français (Canada)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Accueil
+Shorts
+Abonnements
+Vous
+Historique
+Musique
+Films et émissions de télévision
+Applaudissement
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historique des rapports
+
+========== LANGUAGE DETECTION ==========
+Detected Language : French
+Input Text        : Accueil Shorts Abonnements Vous Historique Musique Films et émissions de télévision Applaudissement YouTube Premium YouTube TV YouTube Music YouTube Kids Historique des rapports
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-CA
+ApplicableLanguage  Français (Canada)     Detected Language   French  Expected Language  FRENCH
+ApplicableLanguage  Français (Canada)     Detected Language attribute   fr-CA  Expected Language attribute fr-CA
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Hrvatski lang text from the sheet   17
+Looking for language element with name: Hrvatski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Hrvatski\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Početna
+Shorts
+Pretplate
+Moje
+Povijest
+Glazba
+Filmovi i televizija
+Razglašavanje
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Povijest prijava
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Croatian
+Input Text        : Početna Shorts Pretplate Moje Povijest Glazba Filmovi i televizija Razglašavanje YouTube Premium YouTube TV YouTube Music YouTube Kids Povijest prijava
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hr-HR
+ApplicableLanguage  Hrvatski     Detected Language   Croatian  Expected Language  CROATIAN
+ApplicableLanguage  Hrvatski     Detected Language attribute   hr-HR  Expected Language attribute hr-HR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Íslenska lang text from the sheet   18
+Looking for language element with name: Íslenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Íslenska\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Heim
+Shorts
+Áskriftir
+Þú
+Ferill
+Tónlist
+Kvikmyndir og sjónvarpsefni
+Upphefja
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Tilkynningaferill
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Icelandic
+Input Text        : Heim Shorts Áskriftir Þú Ferill Tónlist Kvikmyndir og sjónvarpsefni Upphefja YouTube Premium YouTube TV YouTube Music YouTube Kids Tilkynningaferill
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: is-IS
+ApplicableLanguage  Íslenska     Detected Language   Icelandic  Expected Language  ICELANDIC
+ApplicableLanguage  Íslenska     Detected Language attribute   is-IS  Expected Language attribute is-IS
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Italiano lang text from the sheet   19
+Looking for language element with name: Italiano
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Italiano\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Home
+Shorts
+Iscrizioni
+Tu
+Cronologia
+Musica
+Film e TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Segnalazioni
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Italian
+Input Text        : Home Shorts Iscrizioni Tu Cronologia Musica Film e TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Segnalazioni
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: it-IT
+ApplicableLanguage  Italiano     Detected Language   Italian  Expected Language  ITALIAN
+ApplicableLanguage  Italiano     Detected Language attribute   it-IT  Expected Language attribute it-IT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Latviešu valoda lang text from the sheet   20
+Looking for language element with name: Latviešu valoda
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Latviešu valoda\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Sākums
+Shorts
+Abonementi
+Jūs
+Vēsture
+Mūzika
+Filmas un TV pārraides
+Popularizēšana
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Ziņošanas vēsture
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Latvian
+Input Text        : Sākums Shorts Abonementi Jūs Vēsture Mūzika Filmas un TV pārraides Popularizēšana YouTube Premium YouTube TV YouTube Music YouTube Kids Ziņošanas vēsture
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lv-LV
+ApplicableLanguage  Latviešu valoda     Detected Language   Latvian  Expected Language  LATVIAN
+ApplicableLanguage  Latviešu valoda     Detected Language attribute   lv-LV  Expected Language attribute lv-LV
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Lietuvių lang text from the sheet   21
+Looking for language element with name: Lietuvių
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Lietuvių\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Pagrindinis
+Shorts
+Prenumeratos
+Jūs
+Istorija
+Muzika
+Filmai ir TV
+Pagyrimai
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Pranešimų istorija
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Lithuanian
+Input Text        : Pagrindinis Shorts Prenumeratos Jūs Istorija Muzika Filmai ir TV Pagyrimai YouTube Premium YouTube TV YouTube Music YouTube Kids Pranešimų istorija
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lt-LT
+ApplicableLanguage  Lietuvių     Detected Language   Lithuanian  Expected Language  LITHUANIAN
+ApplicableLanguage  Lietuvių     Detected Language attribute   lt-LT  Expected Language attribute lt-LT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Magyar lang text from the sheet   22
+Looking for language element with name: Magyar
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Magyar\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Kezdőlap
+Shorts
+Feliratkozások
+Te
+Előzmények
+Zene
+Film és tévé
+Hájpolás
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Bejelentési előzmények
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hungarian
+Input Text        : Kezdőlap Shorts Feliratkozások Te Előzmények Zene Film és tévé Hájpolás YouTube Premium YouTube TV YouTube Music YouTube Kids Bejelentési előzmények
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hu-HU
+ApplicableLanguage  Magyar     Detected Language   Hungarian  Expected Language  HUNGARIAN
+ApplicableLanguage  Magyar     Detected Language attribute   hu-HU  Expected Language attribute hu-HU
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Nederlands lang text from the sheet   23
+Looking for language element with name: Nederlands
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Nederlands\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Home
+Shorts
+Abonnementen
+Jij
+Geschiedenis
+Muziek
+Films en tv
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Rapportagegeschiedenis
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Dutch
+Input Text        : Home Shorts Abonnementen Jij Geschiedenis Muziek Films en tv Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Rapportagegeschiedenis
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: nl-NL
+ApplicableLanguage  Nederlands     Detected Language   Dutch  Expected Language  DUTCH
+ApplicableLanguage  Nederlands     Detected Language attribute   nl-NL  Expected Language attribute nl-NL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Polski lang text from the sheet   24
+Looking for language element with name: Polski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Polski\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Główna
+Shorts
+Subskrypcje
+Ty
+Historia
+Muzyka
+Filmy i TV
+Podbijanie
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historia zgłoszeń
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Polish
+Input Text        : Główna Shorts Subskrypcje Ty Historia Muzyka Filmy i TV Podbijanie YouTube Premium YouTube TV YouTube Music YouTube Kids Historia zgłoszeń
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pl-PL
+ApplicableLanguage  Polski     Detected Language   Polish  Expected Language  POLISH
+ApplicableLanguage  Polski     Detected Language attribute   pl-PL  Expected Language attribute pl-PL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português lang text from the sheet   25
+Looking for language element with name: Português
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Início
+Shorts
+Subscrições
+Eu
+Histórico
+Música
+Filmes e TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Histórico de denúncias
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Portuguese
+Input Text        : Início Shorts Subscrições Eu Histórico Música Filmes e TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Histórico de denúncias
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-PT
+ApplicableLanguage  Português     Detected Language   Portuguese  Expected Language  PORTUGUESE
+ApplicableLanguage  Português     Detected Language attribute   pt-PT  Expected Language attribute pt-PT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português (Brasil) lang text from the sheet   26
+Looking for language element with name: Português (Brasil)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português (Brasil)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Início
+Shorts
+Inscrições
+Você
+Histórico
+Música
+Filmes e TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Histórico de denúncias
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Portuguese
+Input Text        : Início Shorts Inscrições Você Histórico Música Filmes e TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Histórico de denúncias
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-BR
+ApplicableLanguage  Português (Brasil)     Detected Language   Portuguese  Expected Language  PORTUGUESE
+ApplicableLanguage  Português (Brasil)     Detected Language attribute   pt-BR  Expected Language attribute pt-BR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Shqip lang text from the sheet   27
+Looking for language element with name: Shqip
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Shqip\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Faqja e parë
+Shorts
+Abonimet
+Ti
+Historiku
+Muzikë
+Filmat dhe televizioni
+Popullarizo
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Historiku i raportimeve
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Albanian
+Input Text        : Faqja e parë Shorts Abonimet Ti Historiku Muzikë Filmat dhe televizioni Popullarizo YouTube Premium YouTube TV YouTube Music YouTube Kids Historiku i raportimeve
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sq-AL
+ApplicableLanguage  Shqip     Detected Language   Albanian  Expected Language  ALBANIAN
+ApplicableLanguage  Shqip     Detected Language attribute   sq-AL  Expected Language attribute sq-AL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Slovenščina lang text from the sheet   28
+Looking for language element with name: Slovenščina
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Slovenščina\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Domača stran
+Kratki videoposnetki
+Naročnine
+Vi
+Zgodovina
+Glasba
+Filmi in TV
+Izražanje navdušenja
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Zgodovina poročil
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Slovenian
+Input Text        : Domača stran Kratki videoposnetki Naročnine Vi Zgodovina Glasba Filmi in TV Izražanje navdušenja YouTube Premium YouTube TV YouTube Music YouTube Kids Zgodovina poročil
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sl-SI
+ApplicableLanguage  Slovenščina     Detected Language   Slovenian  Expected Language  SLOVENIAN
+ApplicableLanguage  Slovenščina     Detected Language attribute   sl-SI  Expected Language attribute sl-SI
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Suomi lang text from the sheet   29
+Looking for language element with name: Suomi
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Suomi\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Koti
+Shorts
+Tilaukset
+Sinä
+Historia
+Musiikki
+Elokuvat ja TV
+Hypetys
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Ilmoitushistoria
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Finnish
+Input Text        : Koti Shorts Tilaukset Sinä Historia Musiikki Elokuvat ja TV Hypetys YouTube Premium YouTube TV YouTube Music YouTube Kids Ilmoitushistoria
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fi-FI
+ApplicableLanguage  Suomi     Detected Language   Finnish  Expected Language  FINNISH
+ApplicableLanguage  Suomi     Detected Language attribute   fi-FI  Expected Language attribute fi-FI
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Svenska lang text from the sheet   30
+Looking for language element with name: Svenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Svenska\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Hem
+Shorts
+Prenumerationer
+Ditt YouTube
+Historik
+Musik
+Filmer och tv
+Hajp
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Rapporthistorik
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Swedish
+Input Text        : Hem Shorts Prenumerationer Ditt YouTube Historik Musik Filmer och tv Hajp YouTube Premium YouTube TV YouTube Music YouTube Kids Rapporthistorik
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sv-SE
+ApplicableLanguage  Svenska     Detected Language   Swedish  Expected Language  SWEDISH
+ApplicableLanguage  Svenska     Detected Language attribute   sv-SE  Expected Language attribute sv-SE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Tiếng Việt lang text from the sheet   31
+Looking for language element with name: Tiếng Việt
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Tiếng Việt\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Trang chủ
+Shorts
+Kênh đăng ký
+Bạn
+Video đã xem
+Âm nhạc
+Phim và truyền hình
+Khuấy động
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Nhật ký báo cáo
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Vietnamese
+Input Text        : Trang chủ Shorts Kênh đăng ký Bạn Video đã xem Âm nhạc Phim và truyền hình Khuấy động YouTube Premium YouTube TV YouTube Music YouTube Kids Nhật ký báo cáo
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: vi-VN
+ApplicableLanguage  Tiếng Việt     Detected Language   Vietnamese  Expected Language  VIETNAMESE
+ApplicableLanguage  Tiếng Việt     Detected Language attribute   vi-VN  Expected Language attribute vi-VN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Türkçe lang text from the sheet   32
+Looking for language element with name: Türkçe
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Türkçe\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Ana Sayfa
+Shorts
+Abonelikler
+Siz
+Geçmiş
+Müzik
+Filmler ve TV
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+İçerik bildirme geçmişi
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Turkish
+Input Text        : Ana Sayfa Shorts Abonelikler Siz Geçmiş Müzik Filmler ve TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids İçerik bildirme geçmişi
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: tr-TR
+ApplicableLanguage  Türkçe     Detected Language   Turkish  Expected Language  TURKISH
+ApplicableLanguage  Türkçe     Detected Language attribute   tr-TR  Expected Language attribute tr-TR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Беларуская lang text from the sheet   33
+Looking for language element with name: Беларуская
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Беларуская\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Галоўная старонка
+Shorts
+Падпіскі
+Вы
+Гісторыя
+Музыка
+Фільмы і тэлеперадачы
+Галасаванне
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Гісторыя скаргаў
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Belarusian
+Input Text        : Галоўная старонка Shorts Падпіскі Вы Гісторыя Музыка Фільмы і тэлеперадачы Галасаванне YouTube Premium YouTube TV YouTube Music YouTube Kids Гісторыя скаргаў
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: be-BY
+ApplicableLanguage  Беларуская     Detected Language   Belarusian  Expected Language  BELARUSIAN
+ApplicableLanguage  Беларуская     Detected Language attribute   be-BY  Expected Language attribute be-BY
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Български lang text from the sheet   34
+Looking for language element with name: Български
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Български\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Начало
+Shorts
+Абонаменти
+Вие
+История
+Музика
+Филми и телевизионни предавания
+Хайп
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Подадени сигнали
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Bulgarian
+Input Text        : Начало Shorts Абонаменти Вие История Музика Филми и телевизионни предавания Хайп YouTube Premium YouTube TV YouTube Music YouTube Kids Подадени сигнали
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bg-BG
+ApplicableLanguage  Български     Detected Language   Bulgarian  Expected Language  BULGARIAN
+ApplicableLanguage  Български     Detected Language attribute   bg-BG  Expected Language attribute bg-BG
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Русский lang text from the sheet   35
+Looking for language element with name: Русский
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Русский\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Главная
+Shorts
+Подписки
+Вы
+История
+Музыка
+Фильмы и сериалы
+Хайп
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Детям
+Жалобы
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Russian
+Input Text        : Главная Shorts Подписки Вы История Музыка Фильмы и сериалы Хайп YouTube Premium YouTube TV YouTube Music YouTube Детям Жалобы
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ru-RU
+ApplicableLanguage  Русский     Detected Language   Russian  Expected Language  RUSSIAN
+ApplicableLanguage  Русский     Detected Language attribute   ru-RU  Expected Language attribute ru-RU
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Українська lang text from the sheet   36
+Looking for language element with name: Українська
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Українська\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Головна
+YouTube Shorts
+Підписки
+Ви
+Історія
+Музика
+Фільми й серіали
+Голосування
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Історія скарг
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Ukrainian
+Input Text        : Головна YouTube Shorts Підписки Ви Історія Музика Фільми й серіали Голосування YouTube Premium YouTube TV YouTube Music YouTube Kids Історія скарг
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: uk-UA
+ApplicableLanguage  Українська     Detected Language   Ukrainian  Expected Language  UKRAINIAN
+ApplicableLanguage  Українська     Detected Language attribute   uk-UA  Expected Language attribute uk-UA
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Ελληνικά lang text from the sheet   37
+Looking for language element with name: Ελληνικά
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Ελληνικά\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Αρχική
+Shorts
+Εγγραφές
+Εσείς
+Ιστορικό
+Μουσική
+Ταινίες και τηλεοπτικές εκπομπές
+Hype
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Ιστορικό αναφορών
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Greek
+Input Text        : Αρχική Shorts Εγγραφές Εσείς Ιστορικό Μουσική Ταινίες και τηλεοπτικές εκπομπές Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Ιστορικό αναφορών
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: el-GR
+ApplicableLanguage  Ελληνικά     Detected Language   Greek  Expected Language  GREEK
+ApplicableLanguage  Ελληνικά     Detected Language attribute   el-GR  Expected Language attribute el-GR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Հայերեն lang text from the sheet   38
+Looking for language element with name: Հայերեն
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Հայերեն\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+Սկիզբ
+Shorts
+Հետևում եմ
+Դուք
+Պատմություն
+Երաժշտություն
+Ֆիլմեր և սերիալներ
+Հայփել
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+Բողոքների պատմություն
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Armenian
+Input Text        : Սկիզբ Shorts Հետևում եմ Դուք Պատմություն Երաժշտություն Ֆիլմեր և սերիալներ Հայփել YouTube Premium YouTube TV YouTube Music YouTube Kids Բողոքների պատմություն
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hy-AM
+ApplicableLanguage  Հայերեն     Detected Language   Armenian  Expected Language  ARMENIAN
+ApplicableLanguage  Հայերեն     Detected Language attribute   hy-AM  Expected Language attribute hy-AM
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+עברית lang text from the sheet   39
+Looking for language element with name: עברית
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'עברית\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+דף הבית
+Shorts
+מינויים
+הדף שלי
+היסטוריה
+מוזיקה
+סרטים ותוכניות טלוויזיה
+הייפ
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+היסטוריית הדיווחים
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hebrew
+Input Text        : דף הבית Shorts מינויים הדף שלי היסטוריה מוזיקה סרטים ותוכניות טלוויזיה הייפ YouTube Premium YouTube TV YouTube Music YouTube Kids היסטוריית הדיווחים
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: he-IL
+ApplicableLanguage  עברית     Detected Language   Hebrew  Expected Language  HEBREW
+ApplicableLanguage  עברית     Detected Language attribute   he-IL  Expected Language attribute he-IL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+العربية lang text from the sheet   40
+Looking for language element with name: العربية
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'العربية\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+الصفحة الرئيسية
+Shorts
+الاشتراكات
+أنت
+السجلّ
+موسيقى
+أفلام وبرامج تلفزيونية
+التشجيع
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+سجلّ الإبلاغ عن المحتوى
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Arabic
+Input Text        : الصفحة الرئيسية Shorts الاشتراكات أنت السجلّ موسيقى أفلام وبرامج تلفزيونية التشجيع YouTube Premium YouTube TV YouTube Music YouTube Kids سجلّ الإبلاغ عن المحتوى
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ar
+ApplicableLanguage  العربية     Detected Language   Arabic  Expected Language  ARABIC
+ApplicableLanguage  العربية     Detected Language attribute   ar  Expected Language attribute ar
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+فارسی lang text from the sheet   41
+Looking for language element with name: فارسی
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'فارسی\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+صفحه اصلی
+کوته‌ویدیوها
+اشتراک‌ها
+شما
+سابقه
+موسیقی
+فیلم و تلویزیون
+هیجان‌افزایی
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+سابقه گزارش
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Persian
+Input Text        : صفحه اصلی کوته‌ویدیوها اشتراک‌ها شما سابقه موسیقی فیلم و تلویزیون هیجان‌افزایی YouTube Premium YouTube TV YouTube Music YouTube Kids سابقه گزارش
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fa-IR
+ApplicableLanguage  فارسی     Detected Language   Persian  Expected Language  PERSIAN
+ApplicableLanguage  فارسی     Detected Language attribute   fa-IR  Expected Language attribute fa-IR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+हिन्दी lang text from the sheet   42
+Looking for language element with name: हिन्दी
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'हिन्दी\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+होम पेज
+Shorts
+सदस्यता
+आप
+देखे गए वीडियो
+संगीत
+फ़िल्में और टीवी शो
+हाइप
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+शिकायतों का डेटा
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hindi
+Input Text        : होम पेज Shorts सदस्यता आप देखे गए वीडियो संगीत फ़िल्में और टीवी शो हाइप YouTube Premium YouTube TV YouTube Music YouTube Kids शिकायतों का डेटा
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hi-IN
+ApplicableLanguage  हिन्दी     Detected Language   Hindi  Expected Language  HINDI
+ApplicableLanguage  हिन्दी     Detected Language attribute   hi-IN  Expected Language attribute hi-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+বাংলা lang text from the sheet   43
+Looking for language element with name: বাংলা
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'বাংলা\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+হোম
+Shorts
+সাবস্ক্রিপশন
+আপনি
+ইতিহাস
+মিউজিক
+সিনেমা ও টিভি
+হাইপ
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+অভিযোগ জানানোর ইতিহাস
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Bangla
+Input Text        : হোম Shorts সাবস্ক্রিপশন আপনি ইতিহাস মিউজিক সিনেমা ও টিভি হাইপ YouTube Premium YouTube TV YouTube Music YouTube Kids অভিযোগ জানানোর ইতিহাস
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bn-BD
+ApplicableLanguage  বাংলা     Detected Language   Bangla  Expected Language  BANGLA
+ApplicableLanguage  বাংলা     Detected Language attribute   bn-BD  Expected Language attribute bn-BD
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ਪੰਜਾਬੀ lang text from the sheet   44
+Looking for language element with name: ਪੰਜਾਬੀ
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ਪੰਜਾਬੀ\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+ਹੋਮ
+Shorts
+ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ
+ਤੁਸੀਂ
+ਇਤਿਹਾਸ
+ਸੰਗੀਤ
+ਫ਼ਿਲਮਾਂ ਅਤੇ ਟੀਵੀ
+ਹਾਈਪ ਕਰੋ
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+ਰਿਪੋਰਟ ਸੰਬੰਧੀ ਇਤਿਹਾਸ
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Punjabi
+Input Text        : ਹੋਮ Shorts ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ ਤੁਸੀਂ ਇਤਿਹਾਸ ਸੰਗੀਤ ਫ਼ਿਲਮਾਂ ਅਤੇ ਟੀਵੀ ਹਾਈਪ ਕਰੋ YouTube Premium YouTube TV YouTube Music YouTube Kids ਰਿਪੋਰਟ ਸੰਬੰਧੀ ਇਤਿਹਾਸ
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pa-Guru-IN
+ApplicableLanguage  ਪੰਜਾਬੀ     Detected Language   Punjabi  Expected Language  PUNJABI
+ApplicableLanguage  ਪੰਜਾਬੀ     Detected Language attribute   pa-Guru-IN  Expected Language attribute pa-Guru-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ગુજરાતી lang text from the sheet   45
+Looking for language element with name: ગુજરાતી
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ગુજરાતી\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+હોમ
+Shorts
+સબ્સ્ક્રિપ્શન
+તમે
+ઇતિહાસ
+સંગીત
+મૂવી અને ટીવી
+હાઇપ
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+રિપોર્ટનો ઇતિહાસ
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Gujarati
+Input Text        : હોમ Shorts સબ્સ્ક્રિપ્શન તમે ઇતિહાસ સંગીત મૂવી અને ટીવી હાઇપ YouTube Premium YouTube TV YouTube Music YouTube Kids રિપોર્ટનો ઇતિહાસ
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: gu-IN
+ApplicableLanguage  ગુજરાતી     Detected Language   Gujarati  Expected Language  GUJARATI
+ApplicableLanguage  ગુજરાતી     Detected Language attribute   gu-IN  Expected Language attribute gu-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+தமிழ் lang text from the sheet   46
+Looking for language element with name: தமிழ்
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'தமிழ்\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+முகப்பு
+Shorts
+சந்தாக்கள்
+நீங்கள்
+இதுவரை பார்த்தவை
+இசை
+திரைப்படங்கள் & டிவி நிகழ்ச்சிகள்
+ஹைப்
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+புகார் வரலாறு
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Tamil
+Input Text        : முகப்பு Shorts சந்தாக்கள் நீங்கள் இதுவரை பார்த்தவை இசை திரைப்படங்கள் & டிவி நிகழ்ச்சிகள் ஹைப் YouTube Premium YouTube TV YouTube Music YouTube Kids புகார் வரலாறு
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ta-IN
+ApplicableLanguage  தமிழ்     Detected Language   Tamil  Expected Language  TAMIL
+ApplicableLanguage  தமிழ்     Detected Language attribute   ta-IN  Expected Language attribute ta-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+తెలుగు lang text from the sheet   47
+Looking for language element with name: తెలుగు
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'తెలుగు\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+మొదటి ట్యాబ్
+Shorts
+సబ్‌స్క్రిప్షన్‌లు
+ఖాతా
+హిస్టరీ
+మ్యూజిక్
+సినిమాలు & టీవీ
+హైప్
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+రిపోర్టుల హిస్టరీ
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Telugu
+Input Text        : మొదటి ట్యాబ్ Shorts సబ్‌స్క్రిప్షన్‌లు ఖాతా హిస్టరీ మ్యూజిక్ సినిమాలు & టీవీ హైప్ YouTube Premium YouTube TV YouTube Music YouTube Kids రిపోర్టుల హిస్టరీ
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: te-IN
+ApplicableLanguage  తెలుగు     Detected Language   Telugu  Expected Language  TELUGU
+ApplicableLanguage  తెలుగు     Detected Language attribute   te-IN  Expected Language attribute te-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (简体) lang text from the sheet   48
+Looking for language element with name: 中文 (简体)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (简体)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+首页
+Shorts
+订阅
+我
+历史记录
+音乐
+影视
+粉丝热推
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+举报记录
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 首页 Shorts 订阅 我 历史记录 音乐 影视 粉丝热推 YouTube Premium YouTube TV YouTube Music YouTube Kids 举报记录
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hans-CN
+ApplicableLanguage  中文 (简体)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (简体)     Detected Language attribute   zh-Hans-CN  Expected Language attribute zh-Hans-CN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (繁體) lang text from the sheet   49
+Looking for language element with name: 中文 (繁體)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (繁體)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+首頁
+Shorts
+訂閱內容
+個人中心
+觀看記錄
+音樂
+電影與電視節目
+粉絲熱推
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+檢舉記錄
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 首頁 Shorts 訂閱內容 個人中心 觀看記錄 音樂 電影與電視節目 粉絲熱推 YouTube Premium YouTube TV YouTube Music YouTube Kids 檢舉記錄
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-TW
+ApplicableLanguage  中文 (繁體)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (繁體)     Detected Language attribute   zh-Hant-TW  Expected Language attribute zh-Hant-TW
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (香港) lang text from the sheet   50
+Looking for language element with name: 中文 (香港)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (香港)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+主頁
+Shorts
+訂閱項目
+個人中心
+記錄
+音樂
+電影和電視節目
+粉絲推介
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+舉報記錄
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 主頁 Shorts 訂閱項目 個人中心 記錄 音樂 電影和電視節目 粉絲推介 YouTube Premium YouTube TV YouTube Music YouTube Kids 舉報記錄
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-HK
+ApplicableLanguage  中文 (香港)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (香港)     Detected Language attribute   zh-Hant-HK  Expected Language attribute zh-Hant-HK
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+日本語 lang text from the sheet   51
+Looking for language element with name: 日本語
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'日本語\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+ホーム
+ショート
+登録チャンネル
+マイページ
+履歴
+音楽
+映画とテレビ番組
+ハイプ
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+報告履歴
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Japanese
+Input Text        : ホーム ショート 登録チャンネル マイページ 履歴 音楽 映画とテレビ番組 ハイプ YouTube Premium YouTube TV YouTube Music YouTube Kids 報告履歴
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ja-JP
+ApplicableLanguage  日本語     Detected Language   Japanese  Expected Language  JAPANESE
+ApplicableLanguage  日本語     Detected Language attribute   ja-JP  Expected Language attribute ja-JP
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+한국어 lang text from the sheet   52
+Looking for language element with name: 한국어
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'한국어\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+홈
+Shorts
+구독
+내 페이지
+기록
+음악
+영화 및 TV
+하이프
+YouTube Premium
+YouTube TV
+YouTube Music
+YouTube Kids
+신고 기록
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Korean
+Input Text        : 홈 Shorts 구독 내 페이지 기록 음악 영화 및 TV 하이프 YouTube Premium YouTube TV YouTube Music YouTube Kids 신고 기록
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ko-KR
+ApplicableLanguage  한국어     Detected Language   Korean  Expected Language  KOREAN
+ApplicableLanguage  한국어     Detected Language attribute   ko-KR  Expected Language attribute ko-KR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')

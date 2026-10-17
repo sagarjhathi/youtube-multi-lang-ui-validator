@@ -1,0 +1,376 @@
+Opened YouTube landing page.
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Execution is Not CRON Job Hence referring to normal keys from runconfig.json
+[verifyingSideMenuLanguageAsInSettings] Run for all is on, row count is == 53
+[verifyingSideMenuLanguageAsInSettings] Afrikaans lang text from the data file, row 0
+Looking for language element with name: Afrikaans
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Afrikaans\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Tuis Kortvideo's Intekeninge Myne Geskiedenis Musiek Flieks en TV Ophef YouTube Premium YouTube TV YouTube Music YouTube Kids Aangeegeskiedenis
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Azərbaycan lang text from the data file, row 1
+Looking for language element with name: Azərbaycan
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Azərbaycan\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Ev Shorts Abunəliklər Siz Tarixçə Musiqi Film və TV Hayp YouTube Premium YouTube TV YouTube Music YouTube Kids Xəbər tarixçəsi
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Bahasa Indonesia lang text from the data file, row 2
+Looking for language element with name: Bahasa Indonesia
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bahasa Indonesia\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Beranda Shorts Subscription Anda Histori Musik Film & TV Beri hype YouTube Premium YouTube TV YouTube Music YouTube Kids Histori laporan
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Bosanski lang text from the data file, row 3
+Looking for language element with name: Bosanski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bosanski\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Početna stranica Shorts Pretplate Vi Hi‪storija Muzika Filmovi i TV Poticanje interesovanja YouTube Premium YouTube TV YouTube Music YouTube Kids Historija prijava
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Català lang text from the data file, row 4
+Looking for language element with name: Català
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Català\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Inici Shorts Subscripcions Tu Historial Música Pel·lícules i televisió Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial d'informes
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Dansk lang text from the data file, row 5
+Looking for language element with name: Dansk
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Dansk\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Start Shorts Abonnementer Dig Historik Musik Film og tv Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Rapporteringshistorik
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Deutsch lang text from the data file, row 6
+Looking for language element with name: Deutsch
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Deutsch\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Startseite Shorts Abos Mein YouTube Verlauf Musik Filme & Shows Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Meldeverlauf
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Eesti lang text from the data file, row 7
+Looking for language element with name: Eesti
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Eesti\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Avaleht Shorts Tellimused Teie Ajalugu Muusika Filmid ja telesarjad Haipimine YouTube Premium YouTube TV YouTube Music YouTube Kids Teavituste ajalugu
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] English (India) lang text from the data file, row 8
+Looking for language element with name: English (India)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (India)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Report history
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] English (UK) lang text from the data file, row 9
+Looking for language element with name: English (UK)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (UK)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Report history
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] English (US) lang text from the data file, row 10
+Looking for language element with name: English (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (US)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Home Shorts Subscriptions You History Music Movies & TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Report history
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Español (España) lang text from the data file, row 11
+Looking for language element with name: Español (España)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (España)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Inicio Shorts Suscripciones Tú Historial Música Películas y series Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial de denuncias
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Español (Latinoamérica) lang text from the data file, row 12
+Looking for language element with name: Español (Latinoamérica)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (Latinoamérica)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Principal Shorts Suscripciones Tú Historial Música Películas y TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial de denuncias
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Español (US) lang text from the data file, row 13
+Looking for language element with name: Español (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (US)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Principal Shorts Suscripciones Tú Historial Música Películas y TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Historial de denuncias
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Euskara lang text from the data file, row 14
+Looking for language element with name: Euskara
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Euskara\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Orri nagusia Shorts Harpidetzak Zu Historia Musika Filmak eta saioak Ikusmin-adierazpenak YouTube Premium YouTube TV YouTube Music YouTube Kids Salaketa-historia
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Français lang text from the data file, row 15
+Looking for language element with name: Français
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Accueil Shorts Abonnements Vous Historique Musique Films et séries TV Boost YouTube Premium YouTube TV YouTube Music YouTube Kids Signalements
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Français (Canada) lang text from the data file, row 16
+Looking for language element with name: Français (Canada)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français (Canada)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Accueil Shorts Abonnements Vous Historique Musique Films et émissions de télévision Applaudissement YouTube Premium YouTube TV YouTube Music YouTube Kids Historique des rapports
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Hrvatski lang text from the data file, row 17
+Looking for language element with name: Hrvatski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Hrvatski\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Početna Shorts Pretplate Moje Povijest Glazba Filmovi i televizija Razglašavanje YouTube Premium YouTube TV YouTube Music YouTube Kids Povijest prijava
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Íslenska lang text from the data file, row 18
+Looking for language element with name: Íslenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Íslenska\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Heim Shorts Áskriftir Þú Ferill Tónlist Kvikmyndir og sjónvarpsefni Upphefja YouTube Premium YouTube TV YouTube Music YouTube Kids Tilkynningaferill
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Italiano lang text from the data file, row 19
+Looking for language element with name: Italiano
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Italiano\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Home Shorts Iscrizioni Tu Cronologia Musica Film e TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Segnalazioni
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Latviešu valoda lang text from the data file, row 20
+Looking for language element with name: Latviešu valoda
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Latviešu valoda\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Sākums Shorts Abonementi Jūs Vēsture Mūzika Filmas un TV pārraides Popularizēšana YouTube Premium YouTube TV YouTube Music YouTube Kids Ziņošanas vēsture
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Lietuvių lang text from the data file, row 21
+Looking for language element with name: Lietuvių
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Lietuvių\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Pagrindinis Shorts Prenumeratos Jūs Istorija Muzika Filmai ir TV Pagyrimai YouTube Premium YouTube TV YouTube Music YouTube Kids Pranešimų istorija
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Magyar lang text from the data file, row 22
+Looking for language element with name: Magyar
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Magyar\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Kezdőlap Shorts Feliratkozások Te Előzmények Zene Film és tévé Hájpolás YouTube Premium YouTube TV YouTube Music YouTube Kids Bejelentési előzmények
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Nederlands lang text from the data file, row 23
+Looking for language element with name: Nederlands
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Nederlands\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Home Shorts Abonnementen Jij Geschiedenis Muziek Films en tv Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Rapportagegeschiedenis
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Polski lang text from the data file, row 24
+Looking for language element with name: Polski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Polski\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Główna Shorts Subskrypcje Ty Historia Muzyka Filmy i TV Podbijanie YouTube Premium YouTube TV YouTube Music YouTube Kids Historia zgłoszeń
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Português lang text from the data file, row 25
+Looking for language element with name: Português
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Início Shorts Subscrições Eu Histórico Música Filmes e TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Histórico de denúncias
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Português (Brasil) lang text from the data file, row 26
+Looking for language element with name: Português (Brasil)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português (Brasil)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Início Shorts Inscrições Você Histórico Música Filmes e TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Histórico de denúncias
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Shqip lang text from the data file, row 27
+Looking for language element with name: Shqip
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Shqip\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Faqja e parë Shorts Abonimet Ti Historiku Muzikë Filmat dhe televizioni Popullarizo YouTube Premium YouTube TV YouTube Music YouTube Kids Historiku i raportimeve
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Slovenščina lang text from the data file, row 28
+Looking for language element with name: Slovenščina
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Slovenščina\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Domača stran Kratki videoposnetki Naročnine Vi Zgodovina Glasba Filmi in TV Izražanje navdušenja YouTube Premium YouTube TV YouTube Music YouTube Kids Zgodovina poročil
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Suomi lang text from the data file, row 29
+Looking for language element with name: Suomi
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Suomi\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Koti Shorts Tilaukset Sinä Historia Musiikki Elokuvat ja TV Hypetys YouTube Premium YouTube TV YouTube Music YouTube Kids Ilmoitushistoria
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Svenska lang text from the data file, row 30
+Looking for language element with name: Svenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Svenska\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Hem Shorts Prenumerationer Ditt YouTube Historik Musik Filmer och tv Hajp YouTube Premium YouTube TV YouTube Music YouTube Kids Rapporthistorik
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Tiếng Việt lang text from the data file, row 31
+Looking for language element with name: Tiếng Việt
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Tiếng Việt\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Trang chủ Shorts Kênh đăng ký Bạn Video đã xem Âm nhạc Phim và truyền hình Khuấy động YouTube Premium YouTube TV YouTube Music YouTube Kids Nhật ký báo cáo
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Türkçe lang text from the data file, row 32
+Looking for language element with name: Türkçe
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Türkçe\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Ana Sayfa Shorts Abonelikler Siz Geçmiş Müzik Filmler ve TV Hype YouTube Premium YouTube TV YouTube Music YouTube Kids İçerik bildirme geçmişi
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Беларуская lang text from the data file, row 33
+Looking for language element with name: Беларуская
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Беларуская\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Галоўная старонка Shorts Падпіскі Вы Гісторыя Музыка Фільмы і тэлеперадачы Галасаванне YouTube Premium YouTube TV YouTube Music YouTube Kids Гісторыя скаргаў
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Български lang text from the data file, row 34
+Looking for language element with name: Български
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Български\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Начало Shorts Абонаменти Вие История Музика Филми и телевизионни предавания Хайп YouTube Premium YouTube TV YouTube Music YouTube Kids Подадени сигнали
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Русский lang text from the data file, row 35
+Looking for language element with name: Русский
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Русский\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Главная Shorts Подписки Вы История Музыка Фильмы и сериалы Хайп YouTube Premium YouTube TV YouTube Music YouTube Детям Жалобы
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Українська lang text from the data file, row 36
+Looking for language element with name: Українська
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Українська\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Головна YouTube Shorts Підписки Ви Історія Музика Фільми й серіали Голосування YouTube Premium YouTube TV YouTube Music YouTube Kids Історія скарг
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Ελληνικά lang text from the data file, row 37
+Looking for language element with name: Ελληνικά
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Ελληνικά\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Αρχική Shorts Εγγραφές Εσείς Ιστορικό Μουσική Ταινίες και τηλεοπτικές εκπομπές Hype YouTube Premium YouTube TV YouTube Music YouTube Kids Ιστορικό αναφορών
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] Հայերեն lang text from the data file, row 38
+Looking for language element with name: Հայերեն
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Հայերեն\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: Սկիզբ Shorts Հետևում եմ Դուք Պատմություն Երաժշտություն Ֆիլմեր և սերիալներ Հայփել YouTube Premium YouTube TV YouTube Music YouTube Kids Բողոքների պատմություն
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] עברית lang text from the data file, row 39
+Looking for language element with name: עברית
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'עברית\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: דף הבית Shorts מינויים הדף שלי היסטוריה מוזיקה סרטים ותוכניות טלוויזיה הייפ YouTube Premium YouTube TV YouTube Music YouTube Kids היסטוריית הדיווחים
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] العربية lang text from the data file, row 40
+Looking for language element with name: العربية
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'العربية\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: الصفحة الرئيسية Shorts الاشتراكات أنت السجلّ موسيقى أفلام وبرامج تلفزيونية التشجيع YouTube Premium YouTube TV YouTube Music YouTube Kids سجلّ الإبلاغ عن المحتوى
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] فارسی lang text from the data file, row 41
+Looking for language element with name: فارسی
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'فارسی\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: صفحه اصلی کوته‌ویدیوها اشتراک‌ها شما سابقه موسیقی فیلم و تلویزیون هیجان‌افزایی YouTube Premium YouTube TV YouTube Music YouTube Kids سابقه گزارش
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] हिन्दी lang text from the data file, row 42
+Looking for language element with name: हिन्दी
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'हिन्दी\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: होम पेज Shorts सदस्यता आप देखे गए वीडियो संगीत फ़िल्में और टीवी शो हाइप YouTube Premium YouTube TV YouTube Music YouTube Kids शिकायतों का डेटा
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] বাংলা lang text from the data file, row 43
+Looking for language element with name: বাংলা
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'বাংলা\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: হোম Shorts সাবস্ক্রিপশন আপনি ইতিহাস মিউজিক সিনেমা ও টিভি হাইপ YouTube Premium YouTube TV YouTube Music YouTube Kids অভিযোগ জানানোর ইতিহাস
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] ਪੰਜਾਬੀ lang text from the data file, row 44
+Looking for language element with name: ਪੰਜਾਬੀ
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ਪੰਜਾਬੀ\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: ਹੋਮ Shorts ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ ਤੁਸੀਂ ਇਤਿਹਾਸ ਸੰਗੀਤ ਫ਼ਿਲਮਾਂ ਅਤੇ ਟੀਵੀ ਹਾਈਪ ਕਰੋ YouTube Premium YouTube TV YouTube Music YouTube Kids ਰਿਪੋਰਟ ਸੰਬੰਧੀ ਇਤਿਹਾਸ
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] ગુજરાતી lang text from the data file, row 45
+Looking for language element with name: ગુજરાતી
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ગુજરાતી\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: હોમ Shorts સબ્સ્ક્રિપ્શન તમે ઇતિહાસ સંગીત મૂવી અને ટીવી હાઇપ YouTube Premium YouTube TV YouTube Music YouTube Kids રિપોર્ટનો ઇતિહાસ
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] தமிழ் lang text from the data file, row 46
+Looking for language element with name: தமிழ்
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'தமிழ்\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: முகப்பு Shorts சந்தாக்கள் நீங்கள் இதுவரை பார்த்தவை இசை திரைப்படங்கள் & டிவி நிகழ்ச்சிகள் ஹைப் YouTube Premium YouTube TV YouTube Music YouTube Kids புகார் வரலாறு
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] తెలుగు lang text from the data file, row 47
+Looking for language element with name: తెలుగు
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'తెలుగు\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: మొదటి ట్యాబ్ Shorts సబ్‌స్క్రిప్షన్‌లు ఖాతా హిస్టరీ మ్యూజిక్ సినిమాలు & టీవీ హైప్ YouTube Premium YouTube TV YouTube Music YouTube Kids రిపోర్టుల హిస్టరీ
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] 中文 (简体) lang text from the data file, row 48
+Looking for language element with name: 中文 (简体)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (简体)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: 首页 Shorts 订阅 我 历史记录 音乐 影视 粉丝热推 YouTube Premium YouTube TV YouTube Music YouTube Kids 举报记录
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] 中文 (繁體) lang text from the data file, row 49
+Looking for language element with name: 中文 (繁體)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (繁體)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: 首頁 Shorts 訂閱內容 個人中心 觀看記錄 音樂 電影與電視節目 粉絲熱推 YouTube Premium YouTube TV YouTube Music YouTube Kids 檢舉記錄
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] 中文 (香港) lang text from the data file, row 50
+Looking for language element with name: 中文 (香港)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (香港)\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: 主頁 Shorts 訂閱項目 個人中心 記錄 音樂 電影和電視節目 粉絲推介 YouTube Premium YouTube TV YouTube Music YouTube Kids 舉報記錄
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] 日本語 lang text from the data file, row 51
+Looking for language element with name: 日本語
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'日本語\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: ホーム ショート 登録チャンネル マイページ 履歴 音楽 映画とテレビ番組 ハイプ YouTube Premium YouTube TV YouTube Music YouTube Kids 報告履歴
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuLanguageAsInSettings] 한국어 lang text from the data file, row 52
+Looking for language element with name: 한국어
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'한국어\']')
+Finding elements list: locator('//ytd-guide-entry-renderer[@class=\'style-scope ytd-guide-section-renderer\']').visible()
+[verifyingSideMenuLanguageAsInSettings] Side menu text read from the page: 홈 Shorts 구독 내 페이지 기록 음악 영화 및 TV 하이프 YouTube Premium YouTube TV YouTube Music YouTube Kids 신고 기록
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')

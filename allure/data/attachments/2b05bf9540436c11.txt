@@ -1,0 +1,2453 @@
+Opened YouTube landing page.
+Giving input into the search bar with input as = youtube
+clickEnter(locator('//input[@class=\'ytSearchboxComponentInput yt-searchbox-input title\']'))
+Sent ENTER to locator('//input[@class=\'ytSearchboxComponentInput yt-searchbox-input title\']')
+[verifyingGlobalFilterLandingPageLingua] Execution is Not CRON Job Hence referring to normal keys from runconfig.json
+[verifyingGlobalFilterLandingPageLingua] Run for all is on, row count is == 53
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Azərbaycan    1
+Looking for language element with name: Azərbaycan
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Azərbaycan\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Azerbaijani
+Input Text        : Axtarış filtrləri
+NÖV
+Videolar
+Shorts
+Kanallar
+Mahnı siyahıları
+Filmlər
+MÜDDƏT
+3 dəqiqədən az
+3 - 20 dəqiqə
+20 dəqiqədən çox
+YÜKLƏMƏ TARİXİ
+Bu gün
+Bu həftə
+Bu ay
+Bu il
+FUNKSİYALAR
+Canlı
+4K
+HD
+Altyazılar/gizli altyazılar
+Creative Commons lisenziyalı
+360°
+VR180
+3D
+HDR
+Məkan
+Satın alınmış
+PRİORİTETLƏŞDİRİN
+uyğunluq
+Populyarlıq
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: az-Latn-AZ
+ApplicableLanguage  Azərbaycan     Detected Language   Azerbaijani  Expected Language  AZERBAIJANI
+ApplicableLanguage  Azərbaycan     Detected Language attribute   az-Latn-AZ  Expected Language attribute az-Latn-AZ
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bahasa Indonesia    2
+Looking for language element with name: Bahasa Indonesia
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bahasa Indonesia\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Malay
+Input Text        : Filter penelusuran
+JENIS
+Video
+Shorts
+Channel
+Playlist
+Film
+DURASI
+Kurang dari 3 menit
+3—20 menit
+Lebih dari 20 menit
+TANGGAL UPLOAD
+Hari ini
+Minggu ini
+Bulan ini
+Tahun ini
+FITUR
+Live
+4K
+HD
+Subtitel/CC
+Creative Commons
+360°
+VR180
+3D
+HDR
+Lokasi
+Dibeli
+PRIORITASKAN
+Relevansi
+Popularitas
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: id-ID
+ApplicableLanguage  Bahasa Indonesia     Detected Language   Malay  Expected Language  INDONESIAN
+ApplicableLanguage  Bahasa Indonesia     Detected Language attribute   id-ID  Expected Language attribute id-ID
+Skipping detected language check for Bahasa Indonesia (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bosanski    3
+Looking for language element with name: Bosanski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bosanski\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Croatian
+Input Text        : Filteri pretraživanja
+VRSTA
+Videozapisi
+Shortsi
+Kanali
+Plejliste
+Filmovi
+TRAJANJE
+Manje od 3 minute
+3–20 minuta
+Više od 20 minuta
+DATUM OTPREMANJA
+Danas
+Ova sedmica
+Ovog mjeseca
+Ove godine
+FUNKCIJE
+Uživo
+4K
+HD
+Titlovi
+Creative Commons
+360°
+VR180
+3D
+HDR
+Lokacija
+Kupljeno
+DAVANJE PRIORITETA
+Relevantnost
+Popularnost
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bs-Latn-BA
+ApplicableLanguage  Bosanski     Detected Language   Croatian  Expected Language  CROATIAN
+ApplicableLanguage  Bosanski     Detected Language attribute   bs-Latn-BA  Expected Language attribute bs-Latn-BA
+Skipping detected language check for Bosanski (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Català    4
+Looking for language element with name: Català
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Català\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Catalan
+Input Text        : Filtres de cerca
+TIPUS
+Vídeos
+Curts
+Canals
+Llistes de reproducció
+Pel·lícules
+DURADA
+Menys de 3 minuts
+Entre 3 i 20 de minuts
+Més de 20 minuts
+DATA DE PUJADA
+Avui
+Aquesta setmana
+Aquest mes
+Aquest any
+FUNCIONS
+En directe
+4K
+HD
+Subtítols
+Creative Commons
+360°
+VR180
+3D
+HDR
+Ubicació
+Comprat
+PRIORITZA
+Rellevància
+Popularitat
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ca-ES
+ApplicableLanguage  Català     Detected Language   Catalan  Expected Language  CATALAN
+ApplicableLanguage  Català     Detected Language attribute   ca-ES  Expected Language attribute ca-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Dansk    5
+Looking for language element with name: Dansk
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Dansk\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Danish
+Input Text        : Søgefiltre
+TYPE
+Videoer
+Shorts
+Kanaler
+Playlister
+Film
+VARIGHED
+Under 3 minutter
+3-20 minutter
+Over 20 minutter
+DATO FOR UPLOAD
+I dag
+Denne uge
+Denne måned
+I år
+EGENSKABER
+Live
+4K
+HD
+Undertekster
+Creative Commons
+360°
+VR180
+3D
+HDR
+Lokation
+Købt
+PRIORITER
+Relevans
+Popularitet
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: da-DK
+ApplicableLanguage  Dansk     Detected Language   Danish  Expected Language  DANISH
+ApplicableLanguage  Dansk     Detected Language attribute   da-DK  Expected Language attribute da-DK
+Skipping detected language check for Dansk (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Deutsch    6
+Looking for language element with name: Deutsch
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Deutsch\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : German
+Input Text        : Suchfilter
+TYP
+Videos
+Shorts
+Kanäle
+Playlists
+Filme
+DAUER
+Kürzer als 3 Minuten
+3–20 Minuten
+Länger als 20 Minuten
+HOCHLADEDATUM
+Heute
+Diese Woche
+Dieser Monat
+Dieses Jahr
+EIGENSCHAFTEN
+Live
+4K
+HD
+Untertitel/CC
+Creative Commons
+360°
+VR180
+3D
+HDR
+Standort
+Gekauft
+PRIORISIEREN
+Relevanz
+Beliebtheit
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: de-DE
+ApplicableLanguage  Deutsch     Detected Language   German  Expected Language  GERMAN
+ApplicableLanguage  Deutsch     Detected Language attribute   de-DE  Expected Language attribute de-DE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Eesti    7
+Looking for language element with name: Eesti
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Eesti\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Estonian
+Input Text        : Otsingufiltrid
+TÜÜP
+Videod
+Lühivideod
+Kanalid
+Esitusloendid
+Filmid
+KESTUS
+Alla 3 minuti
+3–20 minutit
+Üle 20 minuti
+ÜLESLAADIMISE KUUPÄEV
+Täna
+See nädal
+See kuu
+See aasta
+FUNKTSIOONID
+Reaalajas
+4K
+HD
+Subtiitrid
+Creative Commons
+360°
+VR180
+3D
+HDR
+Asukoht
+Ostetud
+PRIORITEETSUS
+Asjakohasus
+Populaarsus
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: et-EE
+ApplicableLanguage  Eesti     Detected Language   Estonian  Expected Language  ESTONIAN
+ApplicableLanguage  Eesti     Detected Language attribute   et-EE  Expected Language attribute et-EE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (India)    8
+Looking for language element with name: English (India)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (India)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Search filters
+TYPE
+Videos
+Shorts
+Channels
+Playlists
+Movies
+DURATION
+Under 3 minutes
+3–20 minutes
+Over 20 minutes
+UPLOAD DATE
+Today
+This week
+This month
+This year
+FEATURES
+Live
+4K
+HD
+Subtitles/CC
+Creative Commons
+360°
+VR180
+3D
+HDR
+Location
+Purchased
+PRIORITISE
+Relevance
+Popularity
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-IN
+ApplicableLanguage  English (India)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (India)     Detected Language attribute   en-IN  Expected Language attribute en-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (UK)    9
+Looking for language element with name: English (UK)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (UK)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Search filters
+TYPE
+Videos
+Shorts
+Channels
+Playlists
+Movies
+DURATION
+Under 3 minutes
+3–20 minutes
+Over 20 minutes
+UPLOAD DATE
+Today
+This week
+This month
+This year
+FEATURES
+Live
+4K
+HD
+Subtitles/CC
+Creative Commons
+360°
+VR180
+3D
+HDR
+Location
+Purchased
+PRIORITISE
+Relevance
+Popularity
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-GB
+ApplicableLanguage  English (UK)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (UK)     Detected Language attribute   en-GB  Expected Language attribute en-GB
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (US)    10
+Looking for language element with name: English (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (US)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Search filters
+TYPE
+Videos
+Shorts
+Channels
+Playlists
+Movies
+DURATION
+Under 3 minutes
+3 - 20 minutes
+Over 20 minutes
+UPLOAD DATE
+Today
+This week
+This month
+This year
+FEATURES
+Live
+4K
+HD
+Subtitles/CC
+Creative Commons
+360°
+VR180
+3D
+HDR
+Location
+Purchased
+PRIORITIZE
+Relevance
+Popularity
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en
+ApplicableLanguage  English (US)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (US)     Detected Language attribute   en  Expected Language attribute en
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (España)    11
+Looking for language element with name: Español (España)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (España)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Filtros de búsqueda
+TIPO
+Vídeos
+Shorts
+Canales
+Listas
+Películas
+DURACIÓN
+Menos de 3 minutos
+De 3 a 20 minutos
+Más de 20 minutos
+FECHA DE SUBIDA
+Hoy
+Esta semana
+Este mes
+Este año
+CARACTERÍSTICAS
+En directo
+4K
+HD
+Subtítulos
+Creative Commons
+360°
+VR180
+3D
+HDR
+Ubicación
+Comprado
+PRIORIDAD
+Relevancia
+Popularidad
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-ES
+ApplicableLanguage  Español (España)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (España)     Detected Language attribute   es-ES  Expected Language attribute es-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (Latinoamérica)    12
+Looking for language element with name: Español (Latinoamérica)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (Latinoamérica)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Filtros de búsqueda
+TIPO
+Videos
+Shorts
+Canales
+Playlists
+Películas
+DURACIÓN
+Inferior a 3 minutos
+De 3 a 20 minutos
+Más de 20 minutos
+FECHA DE CARGA
+Hoy
+Esta semana
+Este mes
+Este año
+CARACTERÍSTICAS
+En vivo
+4K
+HD
+Subtítulos
+Creative Commons
+360°
+VR180
+3D
+HDR
+Ubicación
+Compras
+PRIORIDAD
+Relevancia
+Popularidad
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-419
+ApplicableLanguage  Español (Latinoamérica)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (Latinoamérica)     Detected Language attribute   es-419  Expected Language attribute es-419
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (US)    13
+Looking for language element with name: Español (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (US)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Filtros de búsqueda
+TIPO
+Videos
+Shorts
+Canales
+Playlists
+Películas
+DURACIÓN
+Inferior a 3 minutos
+De 3 a 20 minutos
+Más de 20 minutos
+FECHA DE CARGA
+Hoy
+Esta semana
+Este mes
+Este año
+CARACTERÍSTICAS
+En vivo
+4K
+HD
+Subtítulos
+Creative Commons
+360°
+VR180
+3D
+HDR
+Ubicación
+Compras
+PRIORIDAD
+Relevancia
+Popularidad
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-US
+ApplicableLanguage  Español (US)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (US)     Detected Language attribute   es-US  Expected Language attribute es-US
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Euskara    14
+Looking for language element with name: Euskara
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Euskara\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Basque
+Input Text        : Bilaketa-iragazkiak
+MOTA
+Bideoak
+Film laburrak
+Kanalak
+Erreprodukzio-zerrendak
+Filmak
+IRAUPENA
+3 minututik beherakoak
+3-20 minutukoak
+20 minututik gorakoak
+KARGATZE-DATA
+Gaurkoak
+Aste honetakoak
+Hilabete honetakoak
+Urte honetan
+EGINBIDEAK
+Zuzenean
+4 K
+HD
+Azpitituluak
+Creative Commons
+360°
+VR180
+3D
+HDR
+Kokapena
+Erositakoak
+LEHENETSI
+Egokitasuna
+Ospea
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: eu-ES
+ApplicableLanguage  Euskara     Detected Language   Basque  Expected Language  BASQUE
+ApplicableLanguage  Euskara     Detected Language attribute   eu-ES  Expected Language attribute eu-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français    15
+Looking for language element with name: Français
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : French
+Input Text        : Filtres de recherche
+TYPE
+Vidéos
+Shorts
+Chaînes
+Playlists
+Films
+DURÉE
+Moins de 3 minutes
+De 3 à 20 minutes
+Plus de 20 minutes
+DATE D'AJOUT
+Aujourd'hui
+Cette semaine
+Ce mois-ci
+Cette année
+CARACTÉRISTIQUES
+En direct
+4K
+HD
+Sous-titres
+Creative Commons
+360°
+VR180
+3D
+HDR
+Lieu
+Acheté
+PRIORITÉ
+Pertinence
+Popularité
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-FR
+ApplicableLanguage  Français     Detected Language   French  Expected Language  FRENCH
+ApplicableLanguage  Français     Detected Language attribute   fr-FR  Expected Language attribute fr-FR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français (Canada)    16
+Looking for language element with name: Français (Canada)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français (Canada)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : French
+Input Text        : Filtres de recherche
+TYPE
+Vidéos
+Courtes vidéos
+Chaînes
+Listes de lecture
+Films
+DURÉE
+Moins de 3 minutes
+De 3 à 20 minutes
+Plus de 20 minutes
+DATE DE MISE EN LIGNE
+Aujourd’hui
+Cette semaine
+Ce mois-ci
+Cette année
+CARACTÉRISTIQUES
+En direct
+4K
+HD
+Sous-titres/sous-titres codés
+Licence Creative Commons
+360°
+VR180
+3D
+HDR
+Position
+Acheté
+PRIORISER
+Pertinence
+Popularité
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-CA
+ApplicableLanguage  Français (Canada)     Detected Language   French  Expected Language  FRENCH
+ApplicableLanguage  Français (Canada)     Detected Language attribute   fr-CA  Expected Language attribute fr-CA
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Hrvatski    17
+Looking for language element with name: Hrvatski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Hrvatski\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Croatian
+Input Text        : Filtri pretraživanja
+VRSTA
+Videozapisi
+Shorts
+Kanali
+Playliste
+Filmovi
+TRAJANJE
+Manje od 3 min
+3 do 20 min
+Više od 20 minuta
+DATUM PRIJENOSA
+Danas
+Ovaj tjedan
+Ovaj mjesec
+Ove godine
+ZNAČAJKE
+Uživo
+4K
+HD
+Titlovi
+Creative Commons
+360°
+VR180
+3D
+HDR
+Lokacija
+Kupljeno
+PRIORITET
+Relevantnost
+Popularnost
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hr-HR
+ApplicableLanguage  Hrvatski     Detected Language   Croatian  Expected Language  CROATIAN
+ApplicableLanguage  Hrvatski     Detected Language attribute   hr-HR  Expected Language attribute hr-HR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Íslenska    18
+Looking for language element with name: Íslenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Íslenska\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Icelandic
+Input Text        : Leitarsíur
+GERÐ
+Vídeó
+Shorts
+Rásir
+Spilunarlistar
+Kvikmyndir
+TÍMALENGD
+Undir þremur mínútum
+3 - 20 mínútur
+Yfir 20 mínútum
+DAGSETNING UPPHLEÐSLU
+Í dag
+Í vikunni
+Í þessum mánuði
+Á þessu ári
+EIGINLEIKAR
+Bein útsending
+4K
+Háskerpa
+Skjátextar
+Creative Commons
+360°
+VR180
+Þrívídd
+HDR
+Staðsetning
+Keypt
+FORGANGSRAÐA
+Vægi
+Vinsældir
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: is-IS
+ApplicableLanguage  Íslenska     Detected Language   Icelandic  Expected Language  ICELANDIC
+ApplicableLanguage  Íslenska     Detected Language attribute   is-IS  Expected Language attribute is-IS
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Italiano    19
+Looking for language element with name: Italiano
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Italiano\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Italian
+Input Text        : Filtri di ricerca
+TIPO
+Video
+Short
+Canali
+Playlist
+Film
+DURATA
+Meno di 3 minuti
+3-20 minuti
+Più di 20 minuti
+DATA DI CARICAMENTO
+Oggi
+Questa settimana
+Questo mese
+Quest'anno
+CARATTERISTICHE
+Live
+4K
+Alta definizione
+Sottotitoli
+Creative Commons
+360°
+VR180
+3D
+HDR
+Posizione
+Acquistato
+PRIORITÀ A
+Pertinenza
+Popolarità
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: it-IT
+ApplicableLanguage  Italiano     Detected Language   Italian  Expected Language  ITALIAN
+ApplicableLanguage  Italiano     Detected Language attribute   it-IT  Expected Language attribute it-IT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Latviešu valoda    20
+Looking for language element with name: Latviešu valoda
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Latviešu valoda\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Latvian
+Input Text        : Meklēšanas filtri
+VEIDS
+Videoklipi
+Īsie videoklipi
+Kanāli
+Atskaņošanas saraksti
+Filmas
+ILGUMS
+Līdz 3 minūtēm
+3–20 minūtes
+Vairāk nekā 20 minūtes
+AUGŠUPIELĀDES DATUMS
+Šodien
+Šajā nedēļā
+Šajā mēnesī
+Šogad
+RAKSTURLIELUMI
+Tiešraide
+4K
+HD
+Subtitri
+Creative Commons
+360°
+VR180
+3D
+Augsts dinamiskais diapazons
+Atrašanās vieta
+Iegādāts
+PRIORITĀTES
+Atbilstība
+Popularitāte
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lv-LV
+ApplicableLanguage  Latviešu valoda     Detected Language   Latvian  Expected Language  LATVIAN
+ApplicableLanguage  Latviešu valoda     Detected Language attribute   lv-LV  Expected Language attribute lv-LV
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Lietuvių    21
+Looking for language element with name: Lietuvių
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Lietuvių\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Lithuanian
+Input Text        : Paieškos filtrai
+TIPAS
+Vaizdo įrašai
+Klipukai
+Kanalai
+Grojaraščiai
+Filmai
+TRUKMĖ
+Iki 3 minučių
+3–20 minučių
+Virš 20 min.
+ĮKĖLIMO DATA
+Šiandien
+Šią savaitę
+Šį mėnesį
+Šiais metais
+PANAŠŪS
+Tiesiogiai
+4K
+HD
+Subtitrai (CC)
+Creative Commons
+360°
+VR180
+3D
+HDR
+Vieta
+Įsigyta
+PRIORITETAS
+Atitikimą
+Populiarumas
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lt-LT
+ApplicableLanguage  Lietuvių     Detected Language   Lithuanian  Expected Language  LITHUANIAN
+ApplicableLanguage  Lietuvių     Detected Language attribute   lt-LT  Expected Language attribute lt-LT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Magyar    22
+Looking for language element with name: Magyar
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Magyar\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hungarian
+Input Text        : Keresési szűrők
+TÍPUS
+Videók
+Rövid videók
+Csatornák
+Lejátszási listák
+Filmek
+IDŐTARTAM
+3 percnél rövidebb
+3–20 perc
+20 percnél hosszabb
+FELTÖLTÉS DÁTUMA
+Ma
+Ezen a héten
+Ebben a hónapban
+Idén
+JELLEMZŐK
+Élő
+4K
+HD
+Feliratok
+Creative Commons
+360°
+VR180
+3D
+HDR
+Hely
+Megvásárolva
+ELŐNYBEN RÉSZESÍTÉS
+Relevancia
+Népszerűség
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hu-HU
+ApplicableLanguage  Magyar     Detected Language   Hungarian  Expected Language  HUNGARIAN
+ApplicableLanguage  Magyar     Detected Language attribute   hu-HU  Expected Language attribute hu-HU
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Nederlands    23
+Looking for language element with name: Nederlands
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Nederlands\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Dutch
+Input Text        : Zoekfilters
+TYPE
+Video's
+Shorts
+Kanalen
+Playlists
+Films
+LENGTE
+Minder dan 3 minuten
+3-20 minuten
+Langer dan 20 minuten
+UPLOADDATUM
+Vandaag
+Deze week
+Deze maand
+Dit jaar
+FUNCTIES
+Live
+4K
+HD
+Ondertiteling (cc)
+Creative Commons
+360°
+VR180
+3D
+HDR
+Locatie
+Gekocht
+PRIORITEIT GEVEN
+Relevantie
+Populariteit
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: nl-NL
+ApplicableLanguage  Nederlands     Detected Language   Dutch  Expected Language  DUTCH
+ApplicableLanguage  Nederlands     Detected Language attribute   nl-NL  Expected Language attribute nl-NL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Polski    24
+Looking for language element with name: Polski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Polski\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Polish
+Input Text        : Filtry wyszukiwania
+TYP
+Filmy
+Shorts
+Kanały
+Playlisty
+Filmy
+CZAS
+Poniżej 3 minut
+3–20 minut
+Powyżej 20 minut
+DATA PRZESŁANIA
+Dzisiaj
+Ten tydzień
+Ten miesiąc
+Ten rok
+CECHY
+Na żywo
+4K
+HD
+Napisy
+Licencja Creative Commons
+360°
+VR180
+3D
+HDR
+Lokalizacja
+Kupiony
+PRIORYTET
+Trafność
+Popularność
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pl-PL
+ApplicableLanguage  Polski     Detected Language   Polish  Expected Language  POLISH
+ApplicableLanguage  Polski     Detected Language attribute   pl-PL  Expected Language attribute pl-PL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português    25
+Looking for language element with name: Português
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Portuguese
+Input Text        : Filtros de pesquisa
+TIPO
+Vídeos
+Shorts
+Canais
+Playlists
+Filmes
+DURAÇÃO
+Menos de 3 minutos
+3 a 20 minutos
+Mais de 20 minutos
+DATA DO CARREGAMENTO
+Hoje
+Esta semana
+Este mês
+Este ano
+CARACTERÍSTICAS
+Em direto
+4K
+HD
+Legendas
+Creative Commons
+360°
+VR180
+3D
+HDR
+Localização
+Adquirido
+PRIORIDADE
+Relevância
+Popularidade
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-PT
+ApplicableLanguage  Português     Detected Language   Portuguese  Expected Language  PORTUGUESE
+ApplicableLanguage  Português     Detected Language attribute   pt-PT  Expected Language attribute pt-PT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português (Brasil)    26
+Looking for language element with name: Português (Brasil)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português (Brasil)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Portuguese
+Input Text        : Filtros de pesquisa
+TIPO
+Vídeos
+Shorts
+Canais
+Playlists
+Filmes
+DURAÇÃO
+Menos de 3 minutos
+De 3 a 20 minutos
+Com mais de 20 minutos
+DATA DO UPLOAD
+Hoje
+Esta semana
+Este mês
+Este ano
+CARACTERÍSTICAS
+Ao vivo
+4K
+Alta Definição‎‏‎‎‏‎
+Legendas/CC
+Creative Commons
+360°
+VR180
+3D
+HDR
+Local
+Comprado
+PRIORIDADE
+Relevância
+Popularidade
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-BR
+ApplicableLanguage  Português (Brasil)     Detected Language   Portuguese  Expected Language  PORTUGUESE
+ApplicableLanguage  Português (Brasil)     Detected Language attribute   pt-BR  Expected Language attribute pt-BR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Shqip    27
+Looking for language element with name: Shqip
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Shqip\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Albanian
+Input Text        : Filtrat e kërkimit
+SHTYP
+Video
+Shorts
+Kanalet
+Listat për luajtje
+Filma
+KOHËZGJATJA
+Nën 3 minuta
+3 - 20 minuta
+Mbi 20 minuta
+DATA E NGARKIMIT
+Sot
+Këtë javë
+Këtë muaj
+Këtë vit
+VEÇORITË
+Drejtpërdrejt
+Format 4K
+HD
+Titrat/teksti shpjegues
+"Creative Commons"
+360°
+VR180
+3D
+HDR
+Vendndodhja
+E blerë
+JEPI PËRPARËSI
+Përshtatshmëria
+Popullaritetit
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sq-AL
+ApplicableLanguage  Shqip     Detected Language   Albanian  Expected Language  ALBANIAN
+ApplicableLanguage  Shqip     Detected Language attribute   sq-AL  Expected Language attribute sq-AL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Slovenščina    28
+Looking for language element with name: Slovenščina
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Slovenščina\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Slovenian
+Input Text        : Iskalni filtri
+VRSTA
+Videoposnetki
+Kratki videoposnetki
+Kanali
+Seznami predvajanja
+Filmi
+TRAJANJE
+Krajši od 3 minut
+3–20 minut
+Daljši od 20 minut
+DATUM NALAGANJA
+Danes
+Ta teden
+Ta mesec
+To leto
+LASTNOSTI
+V živo
+4K
+HD
+Podnapisi
+Creative Commons
+360°
+VR180
+3D
+HDR
+Lokacija
+Kupljen
+PREDNOST
+Ustreznost
+Priljubljenost
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sl-SI
+ApplicableLanguage  Slovenščina     Detected Language   Slovenian  Expected Language  SLOVENIAN
+ApplicableLanguage  Slovenščina     Detected Language attribute   sl-SI  Expected Language attribute sl-SI
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Suomi    29
+Looking for language element with name: Suomi
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Suomi\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Finnish
+Input Text        : Hakusuodattimet
+TYYPPI
+Videot
+Shorts-videot
+Kanavat
+Soittolistat
+Elokuvat
+KESTO
+Alle 3 minuuttia
+3–20 minuuttia
+Yli 20 minuuttia
+LATAUSPÄIVÄ
+Tänään
+Tällä viikolla
+Tässä kuussa
+Tämä kuukausi
+OMINAISUUDET
+Live
+4K
+HD
+Tekstitykset
+Creative Commons
+360°
+VR180
+3D
+HDR
+Sijainti
+Ostettu
+ASETA ETUSIJALLE
+Osuvuus
+Suosio
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fi-FI
+ApplicableLanguage  Suomi     Detected Language   Finnish  Expected Language  FINNISH
+ApplicableLanguage  Suomi     Detected Language attribute   fi-FI  Expected Language attribute fi-FI
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Svenska    30
+Looking for language element with name: Svenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Svenska\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Swedish
+Input Text        : Sökfilter
+TYP
+Videor
+Shorts
+Kanaler
+Spellistor
+Filmer
+LÄNGD
+Under 3 minuter
+3–20 minuter
+Mer än 20 minuter
+UPPLADDNINGSDATUM
+I dag
+Den här veckan
+Den här månaden
+I år
+EGENSKAPER
+Live
+4K
+HD
+Undertexter/textning
+Creative Commons
+360°
+VR180
+3D
+HDR
+Plats
+Köpt
+PRIORITERA
+Relevans
+Popularitet
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sv-SE
+ApplicableLanguage  Svenska     Detected Language   Swedish  Expected Language  SWEDISH
+ApplicableLanguage  Svenska     Detected Language attribute   sv-SE  Expected Language attribute sv-SE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Tiếng Việt    31
+Looking for language element with name: Tiếng Việt
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Tiếng Việt\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Vietnamese
+Input Text        : Bộ lọc tìm kiếm
+LOẠI
+Video
+Shorts
+Kênh
+Danh sách phát
+Phim
+THỜI LƯỢNG
+Dưới 3 phút
+Từ 3 đến 20 phút
+Trên 20 phút
+NGÀY TẢI LÊN
+Hôm nay
+Tuần này
+Tháng này
+Năm nay
+VIDEO NỔI BẬT
+Trực tiếp
+4K
+HD
+Phụ đề
+Giấy phép Creative Commons
+360°
+VR180
+3D
+HDR
+Vị trí
+Đã mua
+ƯU TIÊN
+Mức độ liên quan
+Mức độ phổ biến
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: vi-VN
+ApplicableLanguage  Tiếng Việt     Detected Language   Vietnamese  Expected Language  VIETNAMESE
+ApplicableLanguage  Tiếng Việt     Detected Language attribute   vi-VN  Expected Language attribute vi-VN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Türkçe    32
+Looking for language element with name: Türkçe
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Türkçe\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Turkish
+Input Text        : Arama filtreleri
+TÜR
+Videolar
+Shorts
+Kanallar
+Oynatma listeleri
+Filmler
+SÜRE
+3 dakikadan kısa
+3-20 dakika
+20 dakikadan fazla
+YÜKLEME TARİHİ
+Bugün
+Bu hafta
+Bu ay
+Bu yıl
+ÖZELLİKLER
+Canlı
+4K
+HD
+Altyazılar
+Creative Commons
+360°
+VR180
+3D
+HDR
+Konum
+Satın alındı
+ÖNCELİK
+Alaka düzeyi
+Popülerlik
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: tr-TR
+ApplicableLanguage  Türkçe     Detected Language   Turkish  Expected Language  TURKISH
+ApplicableLanguage  Türkçe     Detected Language attribute   tr-TR  Expected Language attribute tr-TR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Беларуская    33
+Looking for language element with name: Беларуская
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Беларуская\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Belarusian
+Input Text        : Фільтры пошуку
+ТЫП
+Відэа
+Кароткія відэа
+Каналы
+Плэй-лісты
+Фільмы
+ПРАЦЯГЛАСЦЬ
+Менш за 3 хвіліны
+3-20 хвілін
+Звыш 20 хвілін
+ДАТА ЗАПАМПОЎКІ
+Сёння
+На гэтым тыдні
+У гэтым месяцы
+За гэты год
+ФУНКЦЫІ
+Ужывую
+4K
+HD
+Субцітры
+Creative Commons
+360°
+VR180
+3D
+HDR
+Месцазнаходжанне
+Куплена
+ПРЫЯРЫТЭТ
+Рэлевантнасць
+Папулярнасць
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: be-BY
+ApplicableLanguage  Беларуская     Detected Language   Belarusian  Expected Language  BELARUSIAN
+ApplicableLanguage  Беларуская     Detected Language attribute   be-BY  Expected Language attribute be-BY
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Български    34
+Looking for language element with name: Български
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Български\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Bulgarian
+Input Text        : Филтри за търсене
+ТИП
+Видеоклипове
+Кратки видеоклипове
+Канали
+Плейлисти
+Филми
+ПРОДЪЛЖИТЕЛНОСТ
+Под 3 минути
+3 – 20 минути
+Над 20 минути
+ДАТА НА КАЧВАНЕ
+Днес
+Тази седмица
+Този месец
+Тази година
+ФУНКЦИИ
+На живо
+4K
+HD
+Субтитри (CC)
+„Криейтив комънс“
+360°
+VR180
+Триизмерни
+HDR
+Местоположение
+Купено
+ПРИОРИТИЗИРАНЕ
+Уместност
+Популярност
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bg-BG
+ApplicableLanguage  Български     Detected Language   Bulgarian  Expected Language  BULGARIAN
+ApplicableLanguage  Български     Detected Language attribute   bg-BG  Expected Language attribute bg-BG
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Русский    35
+Looking for language element with name: Русский
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Русский\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Russian
+Input Text        : Фильтры поиска
+ТИП
+Видео
+Shorts
+Каналы
+Плейлисты
+Фильмы
+ДЛИТЕЛЬНОСТЬ
+Менее 3 минут
+3–20 минут
+Более 20 минут
+ПО ДАТЕ ЗАГРУЗКИ
+Сегодня
+За эту неделю
+За этот месяц
+За этот год
+ОСОБЕННОСТИ
+Прямые трансляции
+4K
+HD
+Субтитры
+Лицензия Creative Commons
+360°
+VR180
+В формате 3D
+HDR
+Место съемки
+Приобретено
+СОРТИРОВКА
+По релевантности
+По популярности
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ru-RU
+ApplicableLanguage  Русский     Detected Language   Russian  Expected Language  RUSSIAN
+ApplicableLanguage  Русский     Detected Language attribute   ru-RU  Expected Language attribute ru-RU
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Українська    36
+Looking for language element with name: Українська
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Українська\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Ukrainian
+Input Text        : Фільтри пошуку
+ТИП
+Відео
+Відео Shorts
+Канали
+Списки відтворення
+Фільми
+ТРИВАЛІСТЬ
+До 3 хвилин
+3–20 хвилин
+Понад 20 хвилин
+ДАТА ЗАВАНТАЖЕННЯ
+Сьогодні
+Цього тижня
+Цього місяця
+Цього року
+ХАРАКТЕРИСТИКИ
+У прямому ефірі
+4K
+HD
+Субтитри
+Creative Commons
+360°
+VR180
+3D
+HDR
+Місцезнаходження
+Придбано
+УПОРЯДКУВАННЯ
+Відповідність
+Популярність
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: uk-UA
+ApplicableLanguage  Українська     Detected Language   Ukrainian  Expected Language  UKRAINIAN
+ApplicableLanguage  Українська     Detected Language attribute   uk-UA  Expected Language attribute uk-UA
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Ελληνικά    37
+Looking for language element with name: Ελληνικά
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Ελληνικά\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Greek
+Input Text        : Φίλτρα αναζήτησης
+ΤΥΠΟΣ
+Βίντεο
+Shorts
+Κανάλια
+Λίστες αναπαραγωγής
+Ταινίες
+ΔΙΑΡΚΕΙΑ
+Κάτω από 3 λεπτά
+3-20 λεπτά
+Πάνω από 20 λεπτά
+ΗΜΕΡΟΜΗΝΙΑ ΜΕΤΑΦΟΡΤΩΣΗΣ
+Σήμερα
+Αυτήν την εβδομάδα
+Αυτόν το μήνα
+Φέτος
+ΛΕΙΤΟΥΡΓΙΕΣ
+Ζωντανά
+4K
+HD
+Υπότιτλοι
+Creative Commons
+360°
+VR180
+3D
+Υψηλό δυναμικό εύρος (HDR)
+Τοποθεσία
+Αγοράστηκε
+ΠΡΟΤΕΡΑΙΟΤΗΤΑ
+Συνάφεια
+Δημοτικότητα
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: el-GR
+ApplicableLanguage  Ελληνικά     Detected Language   Greek  Expected Language  GREEK
+ApplicableLanguage  Ελληνικά     Detected Language attribute   el-GR  Expected Language attribute el-GR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Հայերեն    38
+Looking for language element with name: Հայերեն
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Հայերեն\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Armenian
+Input Text        : Որոնման զտիչներ
+ՏԵՍԱԿ
+Տեսանյութեր
+Shorts
+Ալիքներ
+Տեսացանկեր
+Ֆիլմեր
+ՏԵՒՈՂՈՒԹՅՈՒՆ
+Մինչև 3 րոպե
+3–20 րոպե
+20 րոպեից երկար
+ԸՍՏ ՎԵՐԲԵՌՆՄԱՆ ԱՄՍԱԹՎԻ
+Այսօր
+Այս շաբաթ
+Այս ամիս
+Այս տարի
+ԱՌԱՆՁՆԱՀԱՏԿՈՒԹՅՈՒՆՆԵՐ
+Ուղիղ եթեր
+4K
+HD
+Ենթագրեր
+Creative Commons
+360°
+VR180
+3D
+HDR
+Տեղադրությունը
+Գնված
+ԱՌԱՋՆԱՀԵՐԹՈՒԹՅՈՒՆ ՏԱԼ
+Համապատասխանություն
+Հանրաճանաչություն
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hy-AM
+ApplicableLanguage  Հայերեն     Detected Language   Armenian  Expected Language  ARMENIAN
+ApplicableLanguage  Հայերեն     Detected Language attribute   hy-AM  Expected Language attribute hy-AM
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+עברית    39
+Looking for language element with name: עברית
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'עברית\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hebrew
+Input Text        : מסנני חיפוש
+סוג
+סרטונים
+סרטוני Shorts
+ערוצים
+פלייליסטים
+סרטים
+משך זמן
+פחות מ-3 דקות
+‫3 עד 20 דקות
+יותר מ-20 דקות
+תאריך העלאה
+היום
+השבוע
+החודש
+השנה
+תכונות
+שידור חי
+4K
+HD
+כתוביות/כתוביות סמויות
+Creative Commons
+360°
+VR180
+תלת ממד
+HDR
+מיקום
+נרכש
+תעדוף לפי
+רלוונטיות
+פופולריות
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: he-IL
+ApplicableLanguage  עברית     Detected Language   Hebrew  Expected Language  HEBREW
+ApplicableLanguage  עברית     Detected Language attribute   he-IL  Expected Language attribute he-IL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+العربية    40
+Looking for language element with name: العربية
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'العربية\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Arabic
+Input Text        : فلاتر البحث
+النوع
+فيديوهات طويلة
+Shorts
+القنوات
+قوائم التشغيل
+أفلام
+المدة
+أقل من 3 دقائق
+من 3 إلى 20 دقيقة
+أكثر من 20 دقيقة
+تاريخ التحميل
+اليوم
+هذا الأسبوع
+هذا الشهر
+هذا العام
+الميزات
+مباشر
+4K
+دقة عالية
+ترجمة وشرح
+ترخيص Creative Commons
+360°
+VR180
+ثلاثي الأبعاد
+نطاق عالي الديناميكية
+الموقع
+تم شراؤه
+الأولوية
+مدى الصلة
+مدى الرواج
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ar
+ApplicableLanguage  العربية     Detected Language   Arabic  Expected Language  ARABIC
+ApplicableLanguage  العربية     Detected Language attribute   ar  Expected Language attribute ar
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+فارسی    41
+Looking for language element with name: فارسی
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'فارسی\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Persian
+Input Text        : فیلترهای جستجو
+نوع
+ویدیوها
+کوته‌ویدیوها
+کانال‌ها
+فهرست‌های پخش
+فیلم‌ها
+مدت زمان
+کمتر از ۳ دقیقه
+‫۳ تا ۲۰ دقیقه
+بیشتر از ۲۰ دقیقه
+تاریخ بارگذاری
+امروز
+این هفته
+این ماه
+امسال
+ویژگی‌ها
+مستقیم
+4K
+HD
+زیرنویس‌ها
+Creative Commons
+360°
+VR180
+سه‌بعدی
+HDR
+مکان
+خریداری شده
+اولویت‌بندی
+ارتباط
+محبوبیت
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fa-IR
+ApplicableLanguage  فارسی     Detected Language   Persian  Expected Language  PERSIAN
+ApplicableLanguage  فارسی     Detected Language attribute   fa-IR  Expected Language attribute fa-IR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+हिन्दी    42
+Looking for language element with name: हिन्दी
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'हिन्दी\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hindi
+Input Text        : खोज के लिए फ़िल्टर
+टाइप
+वीडियो
+शॉर्ट वीडियो
+चैनल
+प्लेलिस्ट
+फ़िल्में
+अवधि
+3 मिनट से कम
+3 से 20 मिनट
+20 मिनट से ज़्यादा
+अपलोड करने का समय
+आज
+इस हफ़्ते
+इस महीने
+इस साल
+सुविधाएं
+लाइव
+4K
+एचडी
+सबटाइटल/कैप्शन
+क्रिएटिव कॉमंस
+360°
+VR180
+3D
+एचडीआर
+जगह
+खरीदा गया
+प्राथमिकता
+प्रासंगिकता
+लोकप्रियता
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hi-IN
+ApplicableLanguage  हिन्दी     Detected Language   Hindi  Expected Language  HINDI
+ApplicableLanguage  हिन्दी     Detected Language attribute   hi-IN  Expected Language attribute hi-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+বাংলা    43
+Looking for language element with name: বাংলা
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'বাংলা\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Bangla
+Input Text        : সার্চ ফিল্টার
+প্রকার
+ভিডিও
+Shorts
+চ্যানেলগুলি
+প্লেলিস্ট
+সিনেমা
+সময়কাল
+৩ মিনিটের কম
+৩ - ২০ মিনিট
+২০ মিনিটের বেশি
+আপলোডের তারিখ
+আজ
+এই সপ্তাহ
+এই মাস
+এই বছর
+বৈশিষ্ট্যগুলি
+লাইভ
+4K
+HD
+সাবটাইটেল
+Creative Commons
+360°
+VR180
+3D
+HDR
+লোকেশন
+কেনা হয়েছে
+অগ্রাধিকার দিন
+প্রাসঙ্গিকতা
+জনপ্রিয়তা
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bn-BD
+ApplicableLanguage  বাংলা     Detected Language   Bangla  Expected Language  BANGLA
+ApplicableLanguage  বাংলা     Detected Language attribute   bn-BD  Expected Language attribute bn-BD
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ਪੰਜਾਬੀ    44
+Looking for language element with name: ਪੰਜਾਬੀ
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ਪੰਜਾਬੀ\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Punjabi
+Input Text        : ਖੋਜ ਫਿਲਟਰ
+ਕਿਸਮ
+ਵੀਡੀਓ
+ਸ਼ਾਰਟ
+ਚੈਨਲ
+ਪਲੇਲਿਸਟਾਂ
+ਫ਼ਿਲਮਾਂ
+ਮਿਆਦ
+3 ਮਿੰਟਾਂ ਤੋਂ ਘੱਟ
+3 - 20 ਮਿੰਟ
+20 ਮਿੰਟ ਤੋਂ ਵੱਧ
+ਅੱਪਲੋਡ ਕਰਨ ਦੀ ਤਾਰੀਖ
+ਅੱਜ
+ਇਸ ਹਫ਼ਤੇ
+ਇਸ ਮਹੀਨੇ
+ਇਸ ਸਾਲ
+ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+ਲਾਈਵ
+4K
+HD
+ਉਪਸਿਰਲੇਖ/ਬੰਦ ਸੁੁਰਖੀਆਂ
+ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼
+360°
+VR180
+3D
+HDR
+ਟਿਕਾਣਾ
+ਖਰੀਦਿਆ
+ਤਰਜੀਹ ਦਿਓ
+ਢੁਕਵਾਂਪਣ
+ਪ੍ਰਸਿੱਧੀ
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pa-Guru-IN
+ApplicableLanguage  ਪੰਜਾਬੀ     Detected Language   Punjabi  Expected Language  PUNJABI
+ApplicableLanguage  ਪੰਜਾਬੀ     Detected Language attribute   pa-Guru-IN  Expected Language attribute pa-Guru-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ગુજરાતી    45
+Looking for language element with name: ગુજરાતી
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ગુજરાતી\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Gujarati
+Input Text        : શોધ ફિલ્ટર
+પ્રકાર
+વીડિયો
+ટૂંકા વીડિયો
+ચૅનલ
+પ્લેલિસ્ટ
+મૂવી
+અવધિ
+3 મિનિટથી ઓછી અવધિના
+3 - 20 મિનિટ
+20 મિનિટથી વધુ અવધિના
+અપલોડની તારીખ
+આજે
+આ અઠવાડિયે
+આ મહિને
+આ વર્ષ
+સુવિધાઓ
+લાઇવ
+4K
+HD
+સબટાઇટલ
+ક્રિએટિવ કૉમન્સ
+360°
+VR180
+3D
+HDR
+સ્થાન
+ખરીદેલા
+પ્રાધાન્યતા આપો
+સંબંધિત
+લોકપ્રિયતા
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: gu-IN
+ApplicableLanguage  ગુજરાતી     Detected Language   Gujarati  Expected Language  GUJARATI
+ApplicableLanguage  ગુજરાતી     Detected Language attribute   gu-IN  Expected Language attribute gu-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+தமிழ்    46
+Looking for language element with name: தமிழ்
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'தமிழ்\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Tamil
+Input Text        : தேடல் வடிப்பான்கள்
+வகை
+வீடியோக்கள்
+Shorts
+சேனல்கள்
+பிளேலிஸ்ட்கள்
+திரைப்படங்கள்
+கால அளவு
+3 நிமிடங்களுக்குக் குறைவானவை
+3 - 20 நிமிடங்கள்
+20 நிமிடங்களுக்கு மேலானவை
+பதிவேற்றிய தேதி
+இன்று
+இந்த வாரம்
+இந்த மாதம்
+இந்த ஆண்டு
+அம்சங்கள்
+நேரலை
+4K
+HD
+சப்டைட்டில்கள்/விரிவான வசனங்கள்
+கிரியேட்டிவ் காமன்ஸ்
+360°
+VR180
+3D
+HDR
+இருப்பிடம்
+வாங்கப்பட்டது
+முன்னுரிமைப்படுத்து
+தொடர்பு
+பிரபலத்தன்மை
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ta-IN
+ApplicableLanguage  தமிழ்     Detected Language   Tamil  Expected Language  TAMIL
+ApplicableLanguage  தமிழ்     Detected Language attribute   ta-IN  Expected Language attribute ta-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+తెలుగు    47
+Looking for language element with name: తెలుగు
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'తెలుగు\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Telugu
+Input Text        : సెర్చ్ ఫిల్టర్‌లు
+రకం
+వీడియోలు
+Shorts
+ఛానెళ్లు
+ప్లేలిస్ట్‌లు
+సినిమాలు
+వ్యవధి
+10 నిమిషాల లోపు
+# నిమిషాలు
+20 నిమిషాలకు పైగా
+అప్‌లోడ్ తేదీ
+ఈ రోజు
+ఈ వారం
+ఈ నెల
+ఈ సంవత్సరం
+ఫీచర్‌లు
+లైవ్
+4K
+HD
+సబ్‌టైటిళ్లు
+క్రియేటివ్ కామన్స్
+360°
+VR180
+3D
+HDR
+లొకేషన్
+కొనుగోలు చేయబడింది
+ప్రాధాన్యత ఇవ్వండి
+ఔచిత్యము
+జనాదరణ
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: te-IN
+ApplicableLanguage  తెలుగు     Detected Language   Telugu  Expected Language  TELUGU
+ApplicableLanguage  తెలుగు     Detected Language attribute   te-IN  Expected Language attribute te-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (简体)    48
+Looking for language element with name: 中文 (简体)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (简体)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 搜索过滤条件
+类型
+长视频
+短视频
+频道
+播放列表
+电影
+时长
+3 分钟以下
+3 - 20 分钟
+20 分钟以上
+上传日期
+今天
+本周
+本月
+今年
+功能
+直播
+4K
+HD
+字幕
+知识共享
+360°
+VR180
+3D
+HDR
+位置
+已购买
+优先顺序
+相关程度
+热门程度
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hans-CN
+ApplicableLanguage  中文 (简体)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (简体)     Detected Language attribute   zh-Hans-CN  Expected Language attribute zh-Hans-CN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (繁體)    49
+Looking for language element with name: 中文 (繁體)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (繁體)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 搜尋篩選器
+類型
+影片
+Shorts
+頻道
+播放清單
+電影
+片長
+3 分鐘內
+3 到 20 分鐘
+超過 20 分鐘
+上傳日期
+今天
+本週
+本月
+今年
+屬性
+直播
+4K
+HD 高畫質
+字幕
+創用 CC
+360°
+VR180
+3D
+高動態範圍
+位置
+已購買
+優先順序
+關聯性
+熱門程度
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-TW
+ApplicableLanguage  中文 (繁體)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (繁體)     Detected Language attribute   zh-Hant-TW  Expected Language attribute zh-Hant-TW
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (香港)    50
+Looking for language element with name: 中文 (香港)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (香港)\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 搜尋篩選器
+類型
+影片
+Shorts
+頻道
+播放清單
+電影
+片長
+3 分鐘內
+3 至 20 分鐘
+超過 20 分鐘
+上載日期
+今日
+本星期
+本月
+今年
+特點
+直播
+4K
+HD 高畫質
+字幕
+共享創意
+360°
+VR180
+3D
+HDR
+位置
+已購買
+優先排序
+相關性
+熱門程度
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-HK
+ApplicableLanguage  中文 (香港)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (香港)     Detected Language attribute   zh-Hant-HK  Expected Language attribute zh-Hant-HK
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+日本語    51
+Looking for language element with name: 日本語
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'日本語\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Japanese
+Input Text        : 検索フィルタ
+タイプ
+動画
+ショート動画
+チャンネル
+再生リスト
+映画
+時間
+3 分未満
+3～20 分
+20 分以上
+アップロード日
+今日
+今週
+今月
+今年
+特徴
+ライブ
+4K
+HD
+字幕
+クリエイティブ・コモンズ
+360°
+VR180
+3D
+HDR
+場所
+購入済み
+優先設定
+関連度順
+人気度
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ja-JP
+ApplicableLanguage  日本語     Detected Language   Japanese  Expected Language  JAPANESE
+ApplicableLanguage  日本語     Detected Language attribute   ja-JP  Expected Language attribute ja-JP
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+한국어    52
+Looking for language element with name: 한국어
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'한국어\']')
+Trying to click element: locator('//div[@id=\'filter-button\']')
+Fetching the data from the global filter in landing page
+Trying to click element: locator('//yt-icon[@icon=\'close\']')
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Korean
+Input Text        : 검색 필터
+구분
+동영상
+Shorts 동영상
+채널
+재생목록
+영화
+길이
+3분 미만
+3~20분
+20분 초과
+업로드 날짜
+오늘
+이번 주
+이번 달
+올해
+기능별
+라이브
+4K
+HD
+자막
+크리에이티브 커먼즈
+360°
+VR180
+3D
+HDR
+위치
+구입한 항목
+우선순위
+관련성
+인기도
+========================================
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ko-KR
+ApplicableLanguage  한국어     Detected Language   Korean  Expected Language  KOREAN
+ApplicableLanguage  한국어     Detected Language attribute   ko-KR  Expected Language attribute ko-KR

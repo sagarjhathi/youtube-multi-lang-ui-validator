@@ -1,0 +1,1176 @@
+Opened YouTube landing page.
+Trying to click element: locator('//ytd-topbar-logo-renderer[@id=\'logo\']/preceding-sibling::*[@id=\'guide-button\']')
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+[verifyingSideMenuCollapsedLangAsInSettingsLingua] Execution is Not CRON Job Hence referring to normal keys from runconfig.json
+[verifyingSideMenuCollapsedLangAsInSettingsLingua] Run for all is on, row count is == 53
+Afrikaans    0
+Looking for language element with name: Afrikaans
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Afrikaans\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: af-ZA
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Dutch
+Input Text        : Tuis Kortvideo's Intekeninge Myne
+========================================
+text sent to lingua is       Tuis Kortvideo's Intekeninge Myne
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: af-ZA
+ApplicableLanguage  Afrikaans     Detected Language   Dutch  Expected Language  AFRIKAANS
+ApplicableLanguage  Afrikaans     Detected Language attribute   af-ZA  Expected Language attribute af-ZA
+Skipping detected language check for Afrikaans (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Azərbaycan    1
+Looking for language element with name: Azərbaycan
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Azərbaycan\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: az-Latn-AZ
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Azerbaijani
+Input Text        : Ev Shorts Abunəliklər Siz
+========================================
+text sent to lingua is       Ev Shorts Abunəliklər Siz
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: az-Latn-AZ
+ApplicableLanguage  Azərbaycan     Detected Language   Azerbaijani  Expected Language  AZERBAIJANI
+ApplicableLanguage  Azərbaycan     Detected Language attribute   az-Latn-AZ  Expected Language attribute az-Latn-AZ
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bahasa Indonesia    2
+Looking for language element with name: Bahasa Indonesia
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bahasa Indonesia\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: id-ID
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Beranda Shorts Subscription Anda
+========================================
+text sent to lingua is       Beranda Shorts Subscription Anda
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: id-ID
+ApplicableLanguage  Bahasa Indonesia     Detected Language   English  Expected Language  INDONESIAN
+ApplicableLanguage  Bahasa Indonesia     Detected Language attribute   id-ID  Expected Language attribute id-ID
+Skipping detected language check for Bahasa Indonesia (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Bosanski    3
+Looking for language element with name: Bosanski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Bosanski\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bs-Latn-BA
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Croatian
+Input Text        : Početna stranica Shorts Pretplate Vi
+========================================
+text sent to lingua is       Početna stranica Shorts Pretplate Vi
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bs-Latn-BA
+ApplicableLanguage  Bosanski     Detected Language   Croatian  Expected Language  CROATIAN
+ApplicableLanguage  Bosanski     Detected Language attribute   bs-Latn-BA  Expected Language attribute bs-Latn-BA
+Skipping detected language check for Bosanski (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Català    4
+Looking for language element with name: Català
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Català\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ca-ES
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Catalan
+Input Text        : Inici Shorts Subscripcions Tu
+========================================
+text sent to lingua is       Inici Shorts Subscripcions Tu
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ca-ES
+ApplicableLanguage  Català     Detected Language   Catalan  Expected Language  CATALAN
+ApplicableLanguage  Català     Detected Language attribute   ca-ES  Expected Language attribute ca-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Dansk    5
+Looking for language element with name: Dansk
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Dansk\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: da-DK
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Start Shorts Abonnementer Dig
+========================================
+text sent to lingua is       Start Shorts Abonnementer Dig
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: da-DK
+ApplicableLanguage  Dansk     Detected Language   English  Expected Language  DANISH
+ApplicableLanguage  Dansk     Detected Language attribute   da-DK  Expected Language attribute da-DK
+Skipping detected language check for Dansk (not supported by eld)
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Deutsch    6
+Looking for language element with name: Deutsch
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Deutsch\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: de-DE
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : German
+Input Text        : Startseite Shorts Abos Mein YouTube
+========================================
+text sent to lingua is       Startseite Shorts Abos Mein YouTube
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: de-DE
+ApplicableLanguage  Deutsch     Detected Language   German  Expected Language  GERMAN
+ApplicableLanguage  Deutsch     Detected Language attribute   de-DE  Expected Language attribute de-DE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Eesti    7
+Looking for language element with name: Eesti
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Eesti\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: et-EE
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Estonian
+Input Text        : Avaleht Shorts Tellimused Teie
+========================================
+text sent to lingua is       Avaleht Shorts Tellimused Teie
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: et-EE
+ApplicableLanguage  Eesti     Detected Language   Estonian  Expected Language  ESTONIAN
+ApplicableLanguage  Eesti     Detected Language attribute   et-EE  Expected Language attribute et-EE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (India)    8
+Looking for language element with name: English (India)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (India)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-IN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Home Shorts Subscriptions You
+========================================
+text sent to lingua is       Home Shorts Subscriptions You
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-IN
+ApplicableLanguage  English (India)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (India)     Detected Language attribute   en-IN  Expected Language attribute en-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (UK)    9
+Looking for language element with name: English (UK)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (UK)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-GB
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Home Shorts Subscriptions You
+========================================
+text sent to lingua is       Home Shorts Subscriptions You
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en-GB
+ApplicableLanguage  English (UK)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (UK)     Detected Language attribute   en-GB  Expected Language attribute en-GB
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+English (US)    10
+Looking for language element with name: English (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'English (US)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : English
+Input Text        : Home Shorts Subscriptions You
+========================================
+text sent to lingua is       Home Shorts Subscriptions You
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: en
+ApplicableLanguage  English (US)     Detected Language   English  Expected Language  ENGLISH
+ApplicableLanguage  English (US)     Detected Language attribute   en  Expected Language attribute en
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (España)    11
+Looking for language element with name: Español (España)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (España)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-ES
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Inicio Shorts Suscripciones Tú
+========================================
+text sent to lingua is       Inicio Shorts Suscripciones Tú
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-ES
+ApplicableLanguage  Español (España)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (España)     Detected Language attribute   es-ES  Expected Language attribute es-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (Latinoamérica)    12
+Looking for language element with name: Español (Latinoamérica)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (Latinoamérica)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-419
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Principal Shorts Suscripciones Tú
+========================================
+text sent to lingua is       Principal Shorts Suscripciones Tú
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-419
+ApplicableLanguage  Español (Latinoamérica)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (Latinoamérica)     Detected Language attribute   es-419  Expected Language attribute es-419
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Español (US)    13
+Looking for language element with name: Español (US)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Español (US)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-US
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Spanish
+Input Text        : Principal Shorts Suscripciones Tú
+========================================
+text sent to lingua is       Principal Shorts Suscripciones Tú
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: es-US
+ApplicableLanguage  Español (US)     Detected Language   Spanish  Expected Language  SPANISH
+ApplicableLanguage  Español (US)     Detected Language attribute   es-US  Expected Language attribute es-US
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Euskara    14
+Looking for language element with name: Euskara
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Euskara\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: eu-ES
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Basque
+Input Text        : Orri nagusia Shorts Harpidetzak Zu
+========================================
+text sent to lingua is       Orri nagusia Shorts Harpidetzak Zu
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: eu-ES
+ApplicableLanguage  Euskara     Detected Language   Basque  Expected Language  BASQUE
+ApplicableLanguage  Euskara     Detected Language attribute   eu-ES  Expected Language attribute eu-ES
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français    15
+Looking for language element with name: Français
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-FR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : French
+Input Text        : Accueil Shorts Abonnements Vous
+========================================
+text sent to lingua is       Accueil Shorts Abonnements Vous
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-FR
+ApplicableLanguage  Français     Detected Language   French  Expected Language  FRENCH
+ApplicableLanguage  Français     Detected Language attribute   fr-FR  Expected Language attribute fr-FR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Français (Canada)    16
+Looking for language element with name: Français (Canada)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Français (Canada)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-CA
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : French
+Input Text        : Accueil Shorts Abonnements Vous
+========================================
+text sent to lingua is       Accueil Shorts Abonnements Vous
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fr-CA
+ApplicableLanguage  Français (Canada)     Detected Language   French  Expected Language  FRENCH
+ApplicableLanguage  Français (Canada)     Detected Language attribute   fr-CA  Expected Language attribute fr-CA
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Hrvatski    17
+Looking for language element with name: Hrvatski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Hrvatski\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hr-HR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Croatian
+Input Text        : Početna Shorts Pretplate Moje
+========================================
+text sent to lingua is       Početna Shorts Pretplate Moje
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hr-HR
+ApplicableLanguage  Hrvatski     Detected Language   Croatian  Expected Language  CROATIAN
+ApplicableLanguage  Hrvatski     Detected Language attribute   hr-HR  Expected Language attribute hr-HR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Íslenska    18
+Looking for language element with name: Íslenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Íslenska\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: is-IS
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Icelandic
+Input Text        : Heim Shorts Áskriftir Þú
+========================================
+text sent to lingua is       Heim Shorts Áskriftir Þú
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: is-IS
+ApplicableLanguage  Íslenska     Detected Language   Icelandic  Expected Language  ICELANDIC
+ApplicableLanguage  Íslenska     Detected Language attribute   is-IS  Expected Language attribute is-IS
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Italiano    19
+Looking for language element with name: Italiano
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Italiano\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: it-IT
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Italian
+Input Text        : Home Shorts Iscrizioni Tu
+========================================
+text sent to lingua is       Home Shorts Iscrizioni Tu
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: it-IT
+ApplicableLanguage  Italiano     Detected Language   Italian  Expected Language  ITALIAN
+ApplicableLanguage  Italiano     Detected Language attribute   it-IT  Expected Language attribute it-IT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Latviešu valoda    20
+Looking for language element with name: Latviešu valoda
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Latviešu valoda\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lv-LV
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Latvian
+Input Text        : Sākums Shorts Abonementi Jūs
+========================================
+text sent to lingua is       Sākums Shorts Abonementi Jūs
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lv-LV
+ApplicableLanguage  Latviešu valoda     Detected Language   Latvian  Expected Language  LATVIAN
+ApplicableLanguage  Latviešu valoda     Detected Language attribute   lv-LV  Expected Language attribute lv-LV
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Lietuvių    21
+Looking for language element with name: Lietuvių
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Lietuvių\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lt-LT
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Lithuanian
+Input Text        : Pagrindinis Shorts Prenumeratos Jūs
+========================================
+text sent to lingua is       Pagrindinis Shorts Prenumeratos Jūs
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: lt-LT
+ApplicableLanguage  Lietuvių     Detected Language   Lithuanian  Expected Language  LITHUANIAN
+ApplicableLanguage  Lietuvių     Detected Language attribute   lt-LT  Expected Language attribute lt-LT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Magyar    22
+Looking for language element with name: Magyar
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Magyar\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hu-HU
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hungarian
+Input Text        : Kezdőlap Shorts Feliratkozások Te
+========================================
+text sent to lingua is       Kezdőlap Shorts Feliratkozások Te
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hu-HU
+ApplicableLanguage  Magyar     Detected Language   Hungarian  Expected Language  HUNGARIAN
+ApplicableLanguage  Magyar     Detected Language attribute   hu-HU  Expected Language attribute hu-HU
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Nederlands    23
+Looking for language element with name: Nederlands
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Nederlands\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: nl-NL
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Dutch
+Input Text        : Home Shorts Abonnementen Jij
+========================================
+text sent to lingua is       Home Shorts Abonnementen Jij
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: nl-NL
+ApplicableLanguage  Nederlands     Detected Language   Dutch  Expected Language  DUTCH
+ApplicableLanguage  Nederlands     Detected Language attribute   nl-NL  Expected Language attribute nl-NL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Polski    24
+Looking for language element with name: Polski
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Polski\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pl-PL
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Polish
+Input Text        : Główna Shorts Subskrypcje Ty
+========================================
+text sent to lingua is       Główna Shorts Subskrypcje Ty
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pl-PL
+ApplicableLanguage  Polski     Detected Language   Polish  Expected Language  POLISH
+ApplicableLanguage  Polski     Detected Language attribute   pl-PL  Expected Language attribute pl-PL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português    25
+Looking for language element with name: Português
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-PT
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Portuguese
+Input Text        : Início Shorts Subscrições Eu
+========================================
+text sent to lingua is       Início Shorts Subscrições Eu
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-PT
+ApplicableLanguage  Português     Detected Language   Portuguese  Expected Language  PORTUGUESE
+ApplicableLanguage  Português     Detected Language attribute   pt-PT  Expected Language attribute pt-PT
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Português (Brasil)    26
+Looking for language element with name: Português (Brasil)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Português (Brasil)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-BR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Portuguese
+Input Text        : Início Shorts Inscrições Você
+========================================
+text sent to lingua is       Início Shorts Inscrições Você
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pt-BR
+ApplicableLanguage  Português (Brasil)     Detected Language   Portuguese  Expected Language  PORTUGUESE
+ApplicableLanguage  Português (Brasil)     Detected Language attribute   pt-BR  Expected Language attribute pt-BR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Shqip    27
+Looking for language element with name: Shqip
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Shqip\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sq-AL
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Albanian
+Input Text        : Faqja e parë Shorts Abonimet Ti
+========================================
+text sent to lingua is       Faqja e parë Shorts Abonimet Ti
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sq-AL
+ApplicableLanguage  Shqip     Detected Language   Albanian  Expected Language  ALBANIAN
+ApplicableLanguage  Shqip     Detected Language attribute   sq-AL  Expected Language attribute sq-AL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Slovenščina    28
+Looking for language element with name: Slovenščina
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Slovenščina\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sl-SI
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Slovenian
+Input Text        : Domača stran Kratki videoposnetki Naročnine Vi
+========================================
+text sent to lingua is       Domača stran Kratki videoposnetki Naročnine Vi
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sl-SI
+ApplicableLanguage  Slovenščina     Detected Language   Slovenian  Expected Language  SLOVENIAN
+ApplicableLanguage  Slovenščina     Detected Language attribute   sl-SI  Expected Language attribute sl-SI
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Suomi    29
+Looking for language element with name: Suomi
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Suomi\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fi-FI
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Finnish
+Input Text        : Koti Shorts Tilaukset Sinä
+========================================
+text sent to lingua is       Koti Shorts Tilaukset Sinä
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fi-FI
+ApplicableLanguage  Suomi     Detected Language   Finnish  Expected Language  FINNISH
+ApplicableLanguage  Suomi     Detected Language attribute   fi-FI  Expected Language attribute fi-FI
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Svenska    30
+Looking for language element with name: Svenska
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Svenska\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sv-SE
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Swedish
+Input Text        : Hem Shorts Prenumerationer Ditt YouTube
+========================================
+text sent to lingua is       Hem Shorts Prenumerationer Ditt YouTube
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: sv-SE
+ApplicableLanguage  Svenska     Detected Language   Swedish  Expected Language  SWEDISH
+ApplicableLanguage  Svenska     Detected Language attribute   sv-SE  Expected Language attribute sv-SE
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Tiếng Việt    31
+Looking for language element with name: Tiếng Việt
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Tiếng Việt\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: vi-VN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Vietnamese
+Input Text        : Trang chủ Shorts Kênh đăng ký Bạn
+========================================
+text sent to lingua is       Trang chủ Shorts Kênh đăng ký Bạn
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: vi-VN
+ApplicableLanguage  Tiếng Việt     Detected Language   Vietnamese  Expected Language  VIETNAMESE
+ApplicableLanguage  Tiếng Việt     Detected Language attribute   vi-VN  Expected Language attribute vi-VN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Türkçe    32
+Looking for language element with name: Türkçe
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Türkçe\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: tr-TR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Turkish
+Input Text        : Ana Sayfa Shorts Abonelikler Siz
+========================================
+text sent to lingua is       Ana Sayfa Shorts Abonelikler Siz
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: tr-TR
+ApplicableLanguage  Türkçe     Detected Language   Turkish  Expected Language  TURKISH
+ApplicableLanguage  Türkçe     Detected Language attribute   tr-TR  Expected Language attribute tr-TR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Беларуская    33
+Looking for language element with name: Беларуская
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Беларуская\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: be-BY
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Belarusian
+Input Text        : Галоўная старонка Shorts Падпіскі Вы
+========================================
+text sent to lingua is       Галоўная старонка Shorts Падпіскі Вы
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: be-BY
+ApplicableLanguage  Беларуская     Detected Language   Belarusian  Expected Language  BELARUSIAN
+ApplicableLanguage  Беларуская     Detected Language attribute   be-BY  Expected Language attribute be-BY
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Български    34
+Looking for language element with name: Български
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Български\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bg-BG
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Bulgarian
+Input Text        : Начало Shorts Абонаменти Вие
+========================================
+text sent to lingua is       Начало Shorts Абонаменти Вие
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bg-BG
+ApplicableLanguage  Български     Detected Language   Bulgarian  Expected Language  BULGARIAN
+ApplicableLanguage  Български     Detected Language attribute   bg-BG  Expected Language attribute bg-BG
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Русский    35
+Looking for language element with name: Русский
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Русский\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ru-RU
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Russian
+Input Text        : Главная Shorts Подписки Вы
+========================================
+text sent to lingua is       Главная Shorts Подписки Вы
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ru-RU
+ApplicableLanguage  Русский     Detected Language   Russian  Expected Language  RUSSIAN
+ApplicableLanguage  Русский     Detected Language attribute   ru-RU  Expected Language attribute ru-RU
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Українська    36
+Looking for language element with name: Українська
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Українська\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: uk-UA
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Ukrainian
+Input Text        : Головна YouTube Shorts Підписки Ви
+========================================
+text sent to lingua is       Головна YouTube Shorts Підписки Ви
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: uk-UA
+ApplicableLanguage  Українська     Detected Language   Ukrainian  Expected Language  UKRAINIAN
+ApplicableLanguage  Українська     Detected Language attribute   uk-UA  Expected Language attribute uk-UA
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Ελληνικά    37
+Looking for language element with name: Ελληνικά
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Ελληνικά\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: el-GR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Greek
+Input Text        : Αρχική Shorts Εγγραφές Εσείς
+========================================
+text sent to lingua is       Αρχική Shorts Εγγραφές Εσείς
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: el-GR
+ApplicableLanguage  Ελληνικά     Detected Language   Greek  Expected Language  GREEK
+ApplicableLanguage  Ελληνικά     Detected Language attribute   el-GR  Expected Language attribute el-GR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+Հայերեն    38
+Looking for language element with name: Հայերեն
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'Հայերեն\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hy-AM
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Armenian
+Input Text        : Սկիզբ Shorts Հետևում եմ Դուք
+========================================
+text sent to lingua is       Սկիզբ Shorts Հետևում եմ Դուք
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hy-AM
+ApplicableLanguage  Հայերեն     Detected Language   Armenian  Expected Language  ARMENIAN
+ApplicableLanguage  Հայերեն     Detected Language attribute   hy-AM  Expected Language attribute hy-AM
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+עברית    39
+Looking for language element with name: עברית
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'עברית\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: he-IL
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hebrew
+Input Text        : דף הבית Shorts מינויים הדף שלי
+========================================
+text sent to lingua is       דף הבית Shorts מינויים הדף שלי
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: he-IL
+ApplicableLanguage  עברית     Detected Language   Hebrew  Expected Language  HEBREW
+ApplicableLanguage  עברית     Detected Language attribute   he-IL  Expected Language attribute he-IL
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+العربية    40
+Looking for language element with name: العربية
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'العربية\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ar
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Arabic
+Input Text        : الصفحة الرئيسية Shorts الاشتراكات أنت
+========================================
+text sent to lingua is       الصفحة الرئيسية Shorts الاشتراكات أنت
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ar
+ApplicableLanguage  العربية     Detected Language   Arabic  Expected Language  ARABIC
+ApplicableLanguage  العربية     Detected Language attribute   ar  Expected Language attribute ar
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+فارسی    41
+Looking for language element with name: فارسی
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'فارسی\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fa-IR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Persian
+Input Text        : صفحه اصلی کوته‌ویدیوها اشتراک‌ها شما
+========================================
+text sent to lingua is       صفحه اصلی کوته‌ویدیوها اشتراک‌ها شما
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: fa-IR
+ApplicableLanguage  فارسی     Detected Language   Persian  Expected Language  PERSIAN
+ApplicableLanguage  فارسی     Detected Language attribute   fa-IR  Expected Language attribute fa-IR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+हिन्दी    42
+Looking for language element with name: हिन्दी
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'हिन्दी\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hi-IN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Hindi
+Input Text        : होम पेज Shorts सदस्यता आप
+========================================
+text sent to lingua is       होम पेज Shorts सदस्यता आप
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: hi-IN
+ApplicableLanguage  हिन्दी     Detected Language   Hindi  Expected Language  HINDI
+ApplicableLanguage  हिन्दी     Detected Language attribute   hi-IN  Expected Language attribute hi-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+বাংলা    43
+Looking for language element with name: বাংলা
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'বাংলা\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bn-BD
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Bangla
+Input Text        : হোম Shorts সাবস্ক্রিপশন আপনি
+========================================
+text sent to lingua is       হোম Shorts সাবস্ক্রিপশন আপনি
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: bn-BD
+ApplicableLanguage  বাংলা     Detected Language   Bangla  Expected Language  BANGLA
+ApplicableLanguage  বাংলা     Detected Language attribute   bn-BD  Expected Language attribute bn-BD
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ਪੰਜਾਬੀ    44
+Looking for language element with name: ਪੰਜਾਬੀ
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ਪੰਜਾਬੀ\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pa-Guru-IN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Punjabi
+Input Text        : ਹੋਮ Shorts ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ ਤੁਸੀਂ
+========================================
+text sent to lingua is       ਹੋਮ Shorts ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ ਤੁਸੀਂ
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: pa-Guru-IN
+ApplicableLanguage  ਪੰਜਾਬੀ     Detected Language   Punjabi  Expected Language  PUNJABI
+ApplicableLanguage  ਪੰਜਾਬੀ     Detected Language attribute   pa-Guru-IN  Expected Language attribute pa-Guru-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+ગુજરાતી    45
+Looking for language element with name: ગુજરાતી
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'ગુજરાતી\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: gu-IN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Gujarati
+Input Text        : હોમ Shorts સબ્સ્ક્રિપ્શન તમે
+========================================
+text sent to lingua is       હોમ Shorts સબ્સ્ક્રિપ્શન તમે
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: gu-IN
+ApplicableLanguage  ગુજરાતી     Detected Language   Gujarati  Expected Language  GUJARATI
+ApplicableLanguage  ગુજરાતી     Detected Language attribute   gu-IN  Expected Language attribute gu-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+தமிழ்    46
+Looking for language element with name: தமிழ்
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'தமிழ்\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ta-IN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Tamil
+Input Text        : முகப்பு Shorts சந்தாக்கள் நீங்கள்
+========================================
+text sent to lingua is       முகப்பு Shorts சந்தாக்கள் நீங்கள்
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ta-IN
+ApplicableLanguage  தமிழ்     Detected Language   Tamil  Expected Language  TAMIL
+ApplicableLanguage  தமிழ்     Detected Language attribute   ta-IN  Expected Language attribute ta-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+తెలుగు    47
+Looking for language element with name: తెలుగు
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'తెలుగు\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: te-IN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Telugu
+Input Text        : మొదటి ట్యాబ్ Shorts సబ్‌స్క్రిప్షన్‌లు ఖాతా
+========================================
+text sent to lingua is       మొదటి ట్యాబ్ Shorts సబ్‌స్క్రిప్షన్‌లు ఖాతా
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: te-IN
+ApplicableLanguage  తెలుగు     Detected Language   Telugu  Expected Language  TELUGU
+ApplicableLanguage  తెలుగు     Detected Language attribute   te-IN  Expected Language attribute te-IN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (简体)    48
+Looking for language element with name: 中文 (简体)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (简体)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hans-CN
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 首页 Shorts 订阅 我
+========================================
+text sent to lingua is       首页 Shorts 订阅 我
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hans-CN
+ApplicableLanguage  中文 (简体)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (简体)     Detected Language attribute   zh-Hans-CN  Expected Language attribute zh-Hans-CN
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (繁體)    49
+Looking for language element with name: 中文 (繁體)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (繁體)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-TW
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 首頁 Shorts 訂閱內容 個人中心
+========================================
+text sent to lingua is       首頁 Shorts 訂閱內容 個人中心
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-TW
+ApplicableLanguage  中文 (繁體)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (繁體)     Detected Language attribute   zh-Hant-TW  Expected Language attribute zh-Hant-TW
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+中文 (香港)    50
+Looking for language element with name: 中文 (香港)
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'中文 (香港)\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-HK
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Chinese
+Input Text        : 主頁 Shorts 訂閱項目 個人中心
+========================================
+text sent to lingua is       主頁 Shorts 訂閱項目 個人中心
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: zh-Hant-HK
+ApplicableLanguage  中文 (香港)     Detected Language   Chinese  Expected Language  CHINESE
+ApplicableLanguage  中文 (香港)     Detected Language attribute   zh-Hant-HK  Expected Language attribute zh-Hant-HK
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+日本語    51
+Looking for language element with name: 日本語
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'日本語\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ja-JP
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Japanese
+Input Text        : ホーム ショート 登録チャンネル マイページ
+========================================
+text sent to lingua is       ホーム ショート 登録チャンネル マイページ
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ja-JP
+ApplicableLanguage  日本語     Detected Language   Japanese  Expected Language  JAPANESE
+ApplicableLanguage  日本語     Detected Language attribute   ja-JP  Expected Language attribute ja-JP
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
+한국어    52
+Looking for language element with name: 한국어
+Trying to DOM click element: locator('//yt-multi-page-menu-section-renderer[@class=\'style-scope ytd-multi-page-menu-renderer\']//yt-formatted-string[@id=\'label\' and text()=\'한국어\']')
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ko-KR
+Finding elements list: locator('//ytd-mini-guide-renderer[@class=\'style-scope ytd-app\']//ytd-mini-guide-entry-renderer')
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+
+========== LANGUAGE DETECTION ==========
+Detected Language : Korean
+Input Text        : 홈 Shorts 구독 내 페이지
+========================================
+text sent to lingua is       홈 Shorts 구독 내 페이지
+getLangAttribute() - locating <html> and reading lang property
+Language attribute read: ko-KR
+ApplicableLanguage  한국어     Detected Language   Korean  Expected Language  KOREAN
+ApplicableLanguage  한국어     Detected Language attribute   ko-KR  Expected Language attribute ko-KR
+Trying to click element: locator('//ytd-topbar-menu-button-renderer[@class=\'style-scope ytd-masthead style-default\']').first()
+Trying to click element: locator('xpath=(//div[@id=\'content-icon\'])[2]')
