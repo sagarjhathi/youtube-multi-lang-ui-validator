@@ -181,3 +181,7 @@ This tests a page that the project does not control, so some failures are not bu
 - Long loops of many language switches can fail at a different place from run to run.
 
 The notes in `docs/` (local only, not committed) list every failure type seen, everything that was tried, and the run results. Start with `docs/README.md`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
